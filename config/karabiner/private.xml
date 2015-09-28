@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Change Right Command Key to Escape</name>
+    <identifier>private.right_command_to_escape</identifier>
+    <autogen>__KeyToKey__ KeyCode::COMMAND_R, KeyCode::ESCAPE</autogen>
+  </item>
+
+  <item>
+      <name>fn+hjkl to Arrow Keys</name>
+      <identifier>private.remap.fn_hjkl_to_arrow_keys</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::H, ModifierFlag::FN,
+        KeyCode::CURSOR_LEFT
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::J, ModifierFlag::FN,
+        KeyCode::CURSOR_DOWN
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::L, ModifierFlag::FN,
+        KeyCode::CURSOR_RIGHT
+      </autogen>
+      <autogen>
+        __KeyToKey__
+        KeyCode::K, ModifierFlag::FN,
+        KeyCode::CURSOR_UP
+      </autogen>
+    </item>
+
+    <item>
+        <name>remap fn + ] to option + right arrow</name>
+        <identifier>private.remap.fn_]_to_option_right</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::BRACKET_RIGHT, ModifierFlag::FN,
+            KeyCode::CURSOR_RIGHT, ModifierFlag::OPTION_L
+        </autogen>
+    </item>
+
+    <item>
+        <name>remap fn + [ to option + right arrow</name>
+        <identifier>private.remap.fn_[_to_option_right</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::BRACKET_LEFT, ModifierFlag::FN,
+            KeyCode::CURSOR_LEFT, ModifierFlag::OPTION_L
+        </autogen>
+    </item>
+
+    <item>
+      <name>remap fn + z to right command + z</name>
+      <identifier>private.remap.fn_z_to_command+z</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::Z, ModifierFlag::FN,
+        KeyCode::Z, ModifierFlag::COMMAND_L
+      </autogen>
+    </item>
+
+    <item>
+      <name>remap fn + c to right command + c</name>
+      <identifier>private.remap.fn_c_to_command+c</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::C, ModifierFlag::FN,
+        KeyCode::C, ModifierFlag::COMMAND_L
+      </autogen>
+    </item>
+
+    <item>
+      <name>remap fn + v to right command + v</name>
+      <identifier>private.remap.fn_v_to_command+v</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::V, ModifierFlag::FN,
+        KeyCode::V, ModifierFlag::COMMAND_L
+      </autogen>
+    </item>
+
+    <item>
+      <name>remap fn + x to right command + x</name>
+      <identifier>private.remap.fn_x_to_command+x</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::X, ModifierFlag::FN,
+        KeyCode::X, ModifierFlag::COMMAND_L
+      </autogen>
+    </item>
+
+    <item>
+      <name>remap fn + a to right command + a</name>
+      <identifier>private.remap.fn_a_to_command+a</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::A, ModifierFlag::FN,
+        KeyCode::A, ModifierFlag::COMMAND_L
+      </autogen>
+    </item>
+    <item>
+        <name>remap fn + s to right command + s</name>
+        <identifier>private.remap.fn_s_to_command+s</identifier>
+        <autogen>
+            __KeyToKey__
+            KeyCode::S, ModifierFlag::FN,
+            KeyCode::S, ModifierFlag::COMMAND_L
+        </autogen>
+    </item>
+    <!-- 定义绑定终端快捷键 -->
+    <vkopenurldef>
+        <name>KeyCode::VK_OPEN_URL_APP_Terminal</name>
+        <url type="file">/Applications/Utilities/Terminal.app</url>
+    </vkopenurldef>
+    <item>
+        <name>Change command + \ to launch Terminal</name>
+        <identifier>private.slash_command_slash_terminal</identifier>
+        <autogen>
+          __KeyToKey__
+          KeyCode::BACKSLASH, ModifierFlag::COMMAND_L,
+          KeyCode::VK_OPEN_URL_APP_Terminal
+        </autogen>
+    </item>
+</root>
