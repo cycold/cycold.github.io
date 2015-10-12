@@ -132,9 +132,9 @@ mongodump -d test -o /tmp/    # 备份完后,保存在 /tmp/test 目录下
 
 mongorestore 恢复
         -d 指定需要恢复的数据库
-        -o 指定恢复文件的路径
+        -dir 指定恢复文件的路径
 
-mongorestore -d test -o /tmp/test
+mongorestore -d test -dir /tmp/test
 
 
 ```
