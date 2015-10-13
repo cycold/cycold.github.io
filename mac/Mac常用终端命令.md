@@ -1,11 +1,11 @@
 #### 常用命令
 -----------------------------------------------------------------
 查看系统支持的shell
-`cat /etc/shells`
-根据进程名(pname)获取pid,反之获取进程名
-`ps -ef | grep pname`
-`ps aux | grep pname`
-`pgrep -lf pname`
+`cat /etc/shells`   
+根据进程名(pname)获取pid,反之获取进程名     
+`ps -ef | grep pname`   
+`ps aux | grep pname`   
+`pgrep -lf pname`   
 通过端口号,查看其进程,port为端口,注意端口号前面一半有:
 `lsof -i :portnumber`
 显示有哪些进程正在监听哪些端口(Good)
