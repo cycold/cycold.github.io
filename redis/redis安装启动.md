@@ -40,6 +40,10 @@ Or, if you don't want/need launchctl, you can just run:
 ==> Summary      
 ```
 
+> 注意: 使用brew安装的redis,默认的数据库(dump.rdb)保存在`/usr/local/var/db/redis/dump.rdb`
+> 可以在/usr/local 目录下下使用`find . -name dump.rdb`查找.
+> 如果不是使用brew安装的,按照官方安装,那么默认的dump.rdb在bin目录下
+
 3.启动redis (brew已将执行路径加入到了坏境path中,所以不需要切到其bin目录下)      
 不带配置文件启动     
 `redis-server`        
