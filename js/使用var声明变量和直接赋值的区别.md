@@ -17,6 +17,13 @@
 > 是不可以通过`delete`操作符删除掉得.
 > 其实都是属性,只是属性的特征描述符`configurable`不同,一个为true,一个为false
 
+> 这里有说明为什么变量中的`configurable` 为 false:
+> 参考:http://bclary.com/2004/11/07/#a-10.1.6
+> When control enters an execution context for function code, 
+> an object called the activation object is created and associated with the execution context. 
+> The activation object is initialised with a property with name arguments and attributes { DontDelete }. 
+> The initial value of this property is the arguments object described below.
+
 ```js
 console.log(t)              //Uncaught ReferenceError: t is not defined
 // 这里的t报了没有定义的异常,因为js在执行时,首先会从作用域链中查找t这个变量,一直查找到全局的window

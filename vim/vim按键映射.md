@@ -16,7 +16,7 @@ c           命令模式
 ```
 
 ```
- noremap 可简写为map
+ noremap 和 map的区别 http://vim.wikia.com/wiki/Avoid_the_escape_key
 inoremap jj <esc>               "将jj按键映射为esc (只在插入模式下有效,i表示insert)
 nnoremap B ^                    "将大写B映射为^键(只在常态模式下有效n表示normal)
 nnoremap E $                    "将大写$映射为^键(只在常态模式下有效)
