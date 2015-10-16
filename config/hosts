@@ -1,0 +1,242 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1 localhost
+#202.108.22.5 www.baidu.com 
+255.255.255.255 broadcasthost
+::1             localhost 
+
+
+# voitsport
+127.0.0.1   voitsport.com
+127.0.0.1   *.voitsport.com
+127.0.0.1   s.voitsport.com
+
+# victorjx
+127.0.0.1   victorjx.com
+127.0.0.1   img.victorjx.com
+
+
+# cnzz
+127.0.0.1   cnzz.com
+127.0.0.1   c.cnzz.com
+127.0.0.1   a.cnzz.com
+127.0.0.1   b.cnzz.com
+127.0.0.1   d.cnzz.com
+127.0.0.1   w.cnzz.com
+127.0.0.1   *.cnzz.com
+127.0.0.1   s*.cnzz.com
+127.0.0.1   s1.cnzz.com
+127.0.0.1   s2.cnzz.com
+127.0.0.1   s3.cnzz.com
+127.0.0.1   s4.cnzz.com
+127.0.0.1   s5.cnzz.com
+127.0.0.1   s6.cnzz.com
+127.0.0.1   s7.cnzz.com
+127.0.0.1   s8.cnzz.com
+127.0.0.1   s9.cnzz.com
+127.0.0.1   s10.cnzz.com
+127.0.0.1   s11.cnzz.com
+127.0.0.1   s12.cnzz.com
+127.0.0.1   s13.cnzz.com
+127.0.0.1   s17.cnzz.com
+127.0.0.1   s18.cnzz.com
+127.0.0.1   s19.cnzz.com
+127.0.0.1   s20.cnzz.com
+127.0.0.1   s21.cnzz.com
+127.0.0.1   s22.cnzz.com
+127.0.0.1   s23.cnzz.com
+127.0.0.1   s24.cnzz.com
+127.0.0.1   s25.cnzz.com
+127.0.0.1   s26.cnzz.com
+127.0.0.1   s27.cnzz.com
+127.0.0.1   s28.cnzz.com
+127.0.0.1   s29.cnzz.com
+127.0.0.1   s30.cnzz.com
+127.0.0.1   s31.cnzz.com
+127.0.0.1   s32.cnzz.com
+127.0.0.1   s88.cnzz.com
+127.0.0.1   s95.cnzz.com
+127.0.0.1   s96.cnzz.com
+127.0.0.1   s97.cnzz.com
+127.0.0.1   s98.cnzz.com
+127.0.0.1   s99.cnzz.com
+127.0.0.1   s100.cnzz.com
+127.0.0.1   s111.cnzz.com
+127.0.0.1   v1.cnzz.com
+127.0.0.1   v2.cnzz.com
+127.0.0.1   w.cnzz.com
+127.0.0.1   z.cnzz.com
+127.0.0.1   js.adm.cnzz.net
+
+# jd
+127.0.0.1   x.jd.com
+
+# baidu
+127.0.0.1   cbjs.baidu.com
+127.0.0.1   eclick.baidu.com
+127.0.0.1   pos.baidu.com
+127.0.0.1   cpro.baidu.com
+127.0.0.1   cpro.baidustatic.com
+127.0.0.1   dup.baidustatic.com
+127.0.0.1   bdimg.share.baidu.com
+127.0.0.1   hm.baidu.com
+127.0.0.1   rp.baidu.com
+127.0.0.1   tb1.bdstatic.com
+127.0.0.1   s1.bdstatic.com
+127.0.0.1   share.baidu.com
+127.0.0.1   static.tieba.baidu.com
+127.0.0.1   su.bdimg.com
+127.0.0.1   img.baidu.com
+127.0.0.1   znsv.baidu.com
+127.0.0.1   youxi.baidu.com
+
+
+
+
+
+# gzminx
+127.0.0.1   gzminx.com
+127.0.0.1   s1.gzminx.com
+127.0.0.1   s11.gzminx.com
+
+
+# ganji
+127.0.0.1   ganji.com
+127.0.0.1   bj.ganji.com
+
+# cpv6
+127.0.0.1   cpv6.com
+127.0.0.1   fengche.cpv6.com
+
+# bshare
+127.0.0.1   bshare.cn
+127.0.0.1   static.bshare.cn
+
+# gtimg.cn
+127.0.0.1   discuz.gtimg.cn
+127.0.0.1   discuzdownload.cn
+
+# twitter
+127.0.0.1   platform.twitter.com
+127.0.0.1   api.twitter.com
+
+# facebook
+127.0.0.1   facebook.net
+127.0.0.1   connect.facebook.net
+
+# google
+127.0.0.1   google-analytics.com
+127.0.0.1   ssl.google-analytics.com
+127.0.0.1   www.google-analytics.com
+127.0.0.1   static.googleadsserving.com
+127.0.0.1   googleads.g.doubleclick.net
+127.0.0.1   pagead2.googlesyndication.com
+127.0.0.1   tpc.googlesyndication.com
+127.0.0.1   ssl.googlesyndication.com
+127.0.0.1   ajax.googleapis.com
+127.0.0.1   www.googletagmanager.com
+127.0.0.1   www.googletagservices.com
+127.0.0.1   partner.googleadservices.com
+127.0.0.1   translate.goole.com
+127.0.0.1   apis.google.com
+127.0.0.1   www.apis.google.com
+127.0.0.1   api.google.com
+127.0.0.1   www.api.google.com
+
+# gravatar
+127.0.0.1   gravatar.com
+127.0.0.1   0.gravatar.com
+127.0.0.1   1.gravatar.com
+127.0.0.1   2.gravatar.com
+127.0.0.1   3.gravatar.com
+127.0.0.1   4.gravatar.com
+127.0.0.1   www.gravatar.com
+127.0.0.1 s.gravatar.com
+
+# weibo
+127.0.0.1   widget.weibo.com
+127.0.0.1   service.weibo.com
+
+# qq
+127.0.0.1   tajs.qq.com
+127.0.0.1   open.qzone.qq.com
+# 127.0.0.1   qzs.qq.com
+
+# youdao
+127.0.0.1   rlogs.youdao.com
+
+# taobao
+127.0.0.1   tns.simba.taobao.com
+127.0.0.1   show.re.taobao.com
+127.0.0.1   a.alimama.cn
+127.0.0.1   g.click.taobao.com
+
+
+# game
+127.0.0.1   www.37cs.com
+127.0.0.1   rwq.youle55.com
+127.0.0.1   d3d.3dwwwgame.com
+127.0.0.1   img.twcczhu.com
+127.0.0.1   gjrowx.code.mytanwan.com
+
+
+
+# other
+127.0.0.1   v.behe.com
+127.0.0.1   static.adzerk.net
+127.0.0.1   us-ads.openx.net
+127.0.0.1   us-u.openx.net
+127.0.0.1   stats.chinaz.com
+127.0.0.1   s3.buysellads.com
+127.0.0.1   srv.buysellads.com
+127.0.0.1   s.adroll.com
+127.0.0.1   s1.bbimgs.net
+127.0.0.1   s2.bbimgs.net
+127.0.0.1   ad.doubleclick.net
+127.0.0.1   s.csbew.com
+127.0.0.1   static.baifendian.com
+127.0.0.1   static1.baifendian.com
+
+127.0.0.1   i.jiathis.com
+127.0.0.1   id.jiathis.com
+127.0.0.1   v3.jiathis.com
+127.0.0.1   pv.sohu.com
+
+127.0.0.1 https://s3.amazonaws.com
+127.0.0.1 www1.feedsky.com
+127.0.0.1 www.feedsky.com
+127.0.0.1 feedsky.com
+127.0.0.1 cnstrc.com
+127.0.0.1   lh4.ggpht.com
+127.0.0.1   lh6.ggpht.com
+127.0.0.1   ads.pro-market.net
+127.0.0.1   bcp.crwdcntrl.net
+127.0.0.1   s.w.org
+127.0.0.1   tags.crwdcntrl.net
+127.0.0.1   load.s3.amazonaws.com
+127.0.0.1   platform.linkedin.com
+127.0.0.1   p.chango.com
+127.0.0.1   chango.com
+
+
+# 不常用的社交网站
+127.0.0.1   www.linksalpha.com
+127.0.0.1   linksalpha.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
