@@ -41,3 +41,22 @@ sudo launchctl stop homebrew.mxcl.dnsmasq
 sudo launchctl start homebrew.mxcl.dnsmasq
 sudo killall -HUP mDNSResponder
 ```
+
+#### 应对ISP的DNS劫持
+当我输入一个不存在的域名时,比如点击了这个链接:http://yura.thinkweb2.com/named-function-expressions/
+我这边的使用的联通宽带就劫持了我的域名,引导到了另外一个页面:
+使用`nslookup` 获取其域名IP地址
+```
+nslookup baidu-shit.com.cn                                  [17:11:39]
+Server:     127.0.0.1
+Address:    127.0.0.1#53
+
+Non-authoritative answer:
+Name:   baidu-shit.com.cn
+Address: 125.211.213.133
+```
+
+编辑/etc/dnsmasq.conf文件，将：bogus-nxdomain=125.211.213.133
+加入进去，后面的IP是刚刚查询到的DNS劫持IP地址。
+
+重启dnsmasq，再尝试打开不存在的域名，这时浏览器就会显示正常的无法连接页面了
