@@ -1,0 +1,11 @@
+! 10/17/2015, 9:03:09 AM http://zhidao.baidu.com/link?url=OrbebEZyh66CVC4TdjMfFXWozZDh9AS6azr65RvO5iQ0e2jD0w_Z9Zn567M30fwsbti_YnxmCTAL0paxx-yAYq
+zhidao.baidu.com###daily-carousel > .carousel-inner
+
+! 10/17/2015, 9:03:31 AM http://zhidao.baidu.com/link?url=OrbebEZyh66CVC4TdjMfFXWozZDh9AS6azr65RvO5iQ0e2jD0w_Z9Zn567M30fwsbti_YnxmCTAL0paxx-yAYq
+zhidao.baidu.com###qb-side > .mod-shadow.wgt-daily
+
+! 10/17/2015, 9:11:02 AM http://news.sina.com.cn/w/2015-10-14/doc-ifxiuyea9092719.shtml
+news.sina.com.cn###articleContent > .right
+
+! 10/17/2015, 9:11:25 AM https://www.baidu.com/s?word=%C5%A3%D7%D0%BF%E3&tn=91438032_hao_pg
+www.baidu.com###content_right
