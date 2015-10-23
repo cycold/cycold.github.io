@@ -42,3 +42,8 @@ console.log('------------------------------')
 delete arr.__proto__.toString
 console.log(arr.toString()) //[object Array]
 console.log(arr2.toString()) //[object Array]
+
+// 使用toString.call(null) 和使用Object.prototype.toString.call(null) 在浏览器中结果是不同的
+console.log(toString.call(null))  // 浏览器中为 [object Window] nodejs中为[object Null]
+console.log(toString.call(undefined)) // 浏览器中为 [object Window] nodejs中为[object Undefined]
+

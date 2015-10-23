@@ -18,6 +18,9 @@ function fun(callback, len) {
      callback(i, function(idx) {
        console.log('callback-i: ', i)
        if (idx) i = idx
+     }, function(i) {
+       console.log('callback-2-i: ', i)
+       i = 100
      })
      data.push(function() {
        console.log('i: ',i)
@@ -39,10 +42,11 @@ var fff = function(index) {
 
 var closures;
 
-var fs = fun(function(index,fn) {
+var fs = fun(function(index, fn, fn2) {
   console.log('index: ', index)
   // console.log('fn:', fn)
-  fn()
+  fn() // 出栈后,改变了父作用域i的值(只要使用了父作用域的变量)
+  fn2() //callback-2-i:  undefined 出栈后,和父作用域没有半毛钱关系
 
   // 保存执行环境,在fun出栈前,将此次运行结果(环境,此次运行的作用域链)保存下来(保存到全局变量中)
   closures = fn;

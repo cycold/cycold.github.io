@@ -15,8 +15,15 @@ process.stdin.on('end', function() {
 var trans = require('stream').Transform()
 
 trans._transform = function(chunk, encoding, done) {
-  this.push(chunk.toString().split('').map(function(char){
+ /* this.push(chunk.toString().split('').map(function(char) {
     return String.fromCharCode(char.charCodeAt(0) + 1)
-  }))
+  }).join(''))*/
+
+  this.push(Array.prototype.map.call(chunk.toString(),function(char) {
+    return String.fromCharCode(char.charCodeAt(0) + 1)
+  }).join(''))
+
+  done()
 }
 
+process.stdin.pipe(trans).pipe(process.stdout)

@@ -1,7 +1,4 @@
-#### 一直想不通为什么字符串可以应用数组的一些方法:
-
-```js
-var map = Array.prototype.map;
+/*var map = Array.prototype.map;
 var a = map.call('Hello World', function(x) {
   console.log(x)
   return x.charCodeAt(0); 
@@ -14,7 +11,7 @@ console.log(a)
 var b = Array.prototype.map.call('Hello World', function(x) {
   console.log(x)
   return x;
-});
+});*/
 
 function Arr(arr) {
   return Array.prototype.slice.call(arguments, 0)
@@ -47,4 +44,3 @@ Arr.prototype.map.call(a, function(currentValue, index, arr) {
 Arr.prototype.map.call('Hello', function(currentValue, index, arr) {
   console.log('Hello: ', currentValue)
 })
-```
