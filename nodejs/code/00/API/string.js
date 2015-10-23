@@ -26,23 +26,6 @@ function toCharCode(str,radix) {
   return arr
 }
 
-function toCharCode2(str, radix) {
-  var radix = parseInt(radix,10)
-  var getType = function(type) { return Object.prototype.toString.call(type).slice(8,-1) }
-
-  if (radix && getType(parseInt(radix,10)) != 'Number') throw 'radix参数需为数字'
-
-  if (getType(str) != 'String' ) throw '参数需要为字符串...'
-
-  if(str && str.length == 0) return str
-
-  return Array.prototype.map.call(str, function(currentValue, index, arr) {
-    return radix == undefined || radix == 10
-            ? currentValue.charCodeAt(0)  //返回的为10进制编码
-            : Number.prototype.toString.call(currentValue.charCodeAt(0), radix) //将10进制转化为其他radix进制
-  })
-}
-
 // 从字符编码转换成字符串(参数可以为编码字符数组,或者单个编码参数)
 function fromCharCode(charCode) {
   if (getType(charCode) == 'Array') {
@@ -57,11 +40,9 @@ function repeatString(str, num) {
   return new Array(num + 1).join(str);
 }
 
-console.log(toCharCode(abc,10))
-console.log(toCharCode(abc,16))
-console.log(toCharCode2(abc,10))
-console.log(toCharCode2(abc,16))
-//console.log(repeatString('Hello',4))
+//console.log(toCharCode(abc,10))
+//console.log(toCharCode(abc,16))
+console.log(repeatString('Hello',4))
 
 
 /*
@@ -84,7 +65,7 @@ function StringToArray(str,substr) {
     j = str.indexOf(substr,i)
 
     if( j != -1) {
-      if(str.substring(i,j) != "") { arrTmp.push(str.substring(i,j)) }
+      if(str.substring(i,j) !== "") { arrTmp.push(str.substring(i,j)) }
       i = j + 1
     } else {
       if(str.substring(i,k) != "") { arrTmp.push(str.substring(i,len)) }

@@ -69,7 +69,7 @@ daemonize no  ===> 改为yes
 `ps -ef | grep redis` 
 
 关闭后台redis进程
-`pkill redis` 或者 `redis-server shutdown`
+`pkill redis-server` 或者 `redis-server shutdown`
 
 redis服务器运行后,开始启动redis客户端:
 `redis-cli`
@@ -86,6 +86,23 @@ not connected>
 127.0.0.1:6379> quit            # quit或者exit退出客户端没有关闭redis服务器
 127.0.0.1:6379> clear           # 清屏 (mongodb下位cls)
 ```
+
+##### redis 授权
+需要在配置文件中指定授权密码(requirepass 字段)
+由于redis运行极快,所以密码需要设置的非常复杂
+```
+# requirepass foobared
+requirepass 123456
+```
+修改配置文件后,需要重启redis服务
+`pkill redis-server`
+`redis-server /usr/local/etc/redis.conf`
+
+授权登录(两种方式):
+1.登录redis-cli之前就授权
+`redis-cli -a 123456`
+2. 进入redis-cli后,通过 auth + 密码授权
+`auth 123456`
 
 #### redis中文文档
 http://redisdoc.com/

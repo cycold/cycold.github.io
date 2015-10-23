@@ -24,6 +24,7 @@ function getRepeatEleArr(arr) {
 
 /**
  * 返回一个数组中的重复的元素(数组元素可以重复)
+ * 按照原数组索引顺序返回
  */
 
 function getRepeatAllArr(arr) {
