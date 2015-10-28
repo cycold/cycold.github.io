@@ -104,7 +104,7 @@ test_static_ref函数运行结束后: new stdclass被回收, 但是$obj依然指
 当函数再次执行值,又执行`static $obj;`重新将$obj指向静态空间,因为上一次函数执行后,静态空间中已有值,
 所以语句`var_dump($obj);`就将输出上一次函数运行后的值.
  ....................              
- .   NULL           .          
+ .                  .          
  .   static         . 
  . new stadcalss    .  
  .................... 

@@ -182,5 +182,23 @@
   $obj2 = get_instance_noref();
   $still_obj2 = get_instance_noref();
 
+  $arr = array(0,1,2);
+  $arr2 = $arr;
+  $arr2[3] = 3;
+  print_r($arr);  // 0, 1, 2
+  print_r($arr2); // 0, 1, 2, 3
+
+  class A{
+    public $age = 20;
+  }
+
+  $a1 = &new A();
+  $a1 = new A();
+  $a2 = $a1;
+  $a2 = &$a1;
+  $a2->age = 24;
+  echo $a1->age."\n"; //24
+  echo $a2->age."\n"; //24
+
 
 
