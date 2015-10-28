@@ -1,0 +1,1 @@
+`select concat(v,"#"), concat(c,"#") from tab7;`

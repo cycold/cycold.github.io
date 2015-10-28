@@ -2,6 +2,7 @@
 下载地址: http://dev.mysql.com/downloads/mysql/
 安装向导: http://dev.mysql.com/doc/refman/5.7/en/osx-installation-pkg.html
 
+> 安装之前,如果之前有安装过mysql,这时,要停止之前正在运行的mysql服务
 > 注意:安装完后,会有一个随机生成的密码,记得复制下来,后面修改root密码需要用到
 > 在5.7版本之前,默认的root密码为空,5.7之后,安装完后,root会有一个随机的密码
 >  
@@ -121,4 +122,24 @@ Query OK, 0 rows affected (0.00 sec)
 
 关于数据库的字符集设置,参考其官方文档:http://dev.mysql.com/doc/refman/5.7/en/charset-applications.html
 
+关于mysql的配置文件,参考:http://dev.mysql.com/doc/refman/5.7/en/option-files.html
 
+mysql服务启动时加载的配置文件的顺序如下:(注意在windows下的配置文件名称为my.ini)
+```
+On Unix, Linux and OS X, MySQL programs read startup options from the following files, 
+in the specified order (top files are read first, later files take precedence).
+
+File Name                       Purpose
+----------------------------------------------------------------------------------------------
+/etc/my.cnf                     Global options
+/etc/mysql/my.cnf               Global options
+SYSCONFDIR/my.cnf               Global options
+$MYSQL_HOME/my.cnf              Server-specific options
+defaults-extra-file             The file specified with --defaults-extra-file=file_name, if any
+~/.my.cnf                       User-specific options
+~/.mylogin.cnf                  Login path options
+```
+
+在5.7.9版本安装完后没有默认设置配置文件,但是在/usr/local/mysql/support-files有一个模板配置文件:`my-default.cnf`.
+可以拷贝到/usr/local/mysql/ 并重命名为 `my.cnf`作为mysql启动时加载的配置文件
+如果拷贝到/usr/local/mysql/无效,那么就拷贝到/etc目录下
