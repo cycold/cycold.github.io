@@ -41,6 +41,7 @@ DDL 语句:
 `drop database 库名`
 `drop database if exists 库名`
 `drop table if exists 表名`
+`drop table 表1, 表2...`
 清空表
 `truncate 表名`
 

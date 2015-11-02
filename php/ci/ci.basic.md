@@ -1,0 +1,11 @@
+ci开启调试模式:
+`$this->output->enable_profiler(TRUE)`;
+ci开启跨站攻击防御:
+`配置文件中config.php使能global_xss_filtering选项`
+ci中获取表单数据,最后使用其自带的方法获取:
+`$this->input->post(name)`
+`$this->input->get(name)`
+ci中定义全局函数(用户自定义函数)
+`在system-core-Common.php文件中定义`
+ci中可以将表单验证的规则写到一个固定命名的文件中
+`form_validation.php`

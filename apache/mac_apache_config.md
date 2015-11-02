@@ -101,4 +101,51 @@ AllowOverride None
 Order deny,allow
 Allow from all
 Require all granted
+```         
+
+````
+
 ```
+<Directory "/Users/icewater/x-dev/">
+    AddLanguage en .en
+    LanguagePriority en fr de
+    ForceLanguagePriority Fallback
+    Options Indexes MultiViews FollowSymLinks
+    AllowOverride All
+    Order allow,deny
+    Allow from all
+    Require all granted
+</Directory>
+
+
+# 不同端口访问不同的目录
+Listen 7777
+NameVirtualHost localhost:7777
+<VirtualHost *:7777>
+  DocumentRoot /Users/icewater/x-dev
+  ServerName localhost:7777
+</VirtualHost>
+```
+
+下面是Mac下Yosemite下的Apache虚拟主机配置:
+```
+ <VirtualHost 192.168.0.111:80>  # 这里不使用127.0.0.1主要是不便于手机等移动设备的访问
+ 42     ServerAdmin admin@t.com
+ 43     DocumentRoot "/Users/icewater/x-dev/"
+ 44     ServerName t.com
+ 45     ServerAlias www.t.com *.t.com
+ 46     ErrorLog "/private/var/log/apache2/t.com-error_log"
+ 47     CustomLog "/private/var/log/apache2/t.com-access_log" common
+ 48
+ 49     <Directory "/Users/icewater/x-dev">
+ 50         Options Indexes FollowSymLinks MultiViews
+ 51         AllowOverride All
+ 52         Order allow,deny
+ 53         Allow from all
+ 54         Require all granted  #注释掉这句会报: Forbidden You don't have permission to access / on this server.
+ 55     </Directory>
+ 56 </VirtualHost>
+```
+需要在`/etc/hosts`文件中做好域名映射: `192.168.0.111 t.com`
+IP地址设置为手动设置,不要DHCP自动分配
+
