@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "git/标签.md",
+			"settings":
+			{
+				"buffer_size": 3028,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "apache/mac_apache_config.md",
+			"settings":
+			{
+				"buffer_size": 4010,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -627,10 +643,13 @@
 	"expanded_folders":
 	[
 		"/Users/icewater/x-dev/icewaters.github.io",
-		"/Users/icewater/x-dev/icewaters.github.io/atom"
+		"/Users/icewater/x-dev/icewaters.github.io/vim"
 	],
 	"file_history":
 	[
+		"/Users/icewater/x-dev/php/php-console-master/examples/index.php",
+		"/Users/icewater/x-dev/icewaters.github.io/php/snippets/dump.php",
+		"/Users/icewater/x-dev/icewaters.github.io/vim/common operation.md",
 		"/Users/icewater/x-dev/x/pcbdic/application/controllers/Welcome.php",
 		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/index.php",
 		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/style.scss",
@@ -755,10 +774,7 @@
 		"/Users/icewater/x-dev/TT/icewaters.github.io/redis/redis安装启动.md",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/atom/init.md",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/nodejs/code/00/API/process.standard.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/toString.call().js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/snippets/array.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/closure01.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/t.js"
+		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/toString.call().js"
 	],
 	"find":
 	{
@@ -924,8 +940,179 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "git/标签.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								776,
+								776
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1483.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "apache/mac_apache_config.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4010,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2655,
+								2655
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2022.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
