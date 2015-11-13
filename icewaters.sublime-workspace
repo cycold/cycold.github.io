@@ -520,18 +520,13 @@
 	"buffers":
 	[
 		{
-			"file": "git/标签.md",
+			"contents": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">\n<plist version=\"1.0\">\n<dict>\n	<key>author</key>\n	<string>Eric Chen</string>\n	<key>name</key>\n	<string>i-ocean-light</string>\n	<key>settings</key>\n	<array>\n		<!-- 总体配置 settings -->\n		<dict>\n			<key>settings</key>\n			<dict>\n				<!-- 背景颜色 -->\n				<key>background</key>\n				<string>#eff1f5</string>\n\n				<!-- 光标颜色 -->\n				<key>caret</key>\n        <string>#00A7FF</string>\n				<string>#ffcc00</string>\n\n				<!-- 前景颜色 一般文字颜色 -->\n				<key>foreground</key>\n				<string>#4f5b66</string>\n\n				<!-- 不可见的颜色 -->\n				<key>invisibles</key>\n				<string>#dfe1e8</string>\n\n				<!-- 光标所在行高亮背景颜色 -->\n				<key>lineHighlight</key>\n				<string>#dfe1e8</string>\n\n				<!-- 文本选择颜色 -->\n				<key>selection</key>\n				<string>#B5E2FF</string>\n\n				<key>selectionBorder</key>\n        <string>#AACBDF</string>\n\n        <key>inactiveSelection</key>\n        <string>#EDEDED</string>\n\n        <key>findHighlight</key>\n        <string>#FFE792</string>\n\n        <key>findHighlightForeground</key>\n        <string>#000000</string>\n\n				<!-- 阴影 -->\n				<key>shadow</key>\n				<string>#99BFD9</string>\n			</dict>\n		</dict>\n\n		<!-- 注释配置 comments-->\n		<dict>\n			<key>name</key>\n			<string>Comments</string>\n			<key>scope</key>\n			<string>comment, punctuation.definition.comment, comment punctuation</string>\n			<key>settings</key>\n			<dict>\n				<key>fontStyle</key>\n        <string></string>\n				<key>foreground</key>\n				<string>#a7adba</string>\n			</dict>\n		</dict>\n		<dict>\n      <key>name</key>\n      <string>Comments: Preprocessor</string>\n      <key>scope</key>\n      <string>comment.block.preprocessor</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#a7adba</string>\n      </dict>\n    </dict>\n		<dict>\n      <key>name</key>\n      <!-- 文档注释 -->\n      <string>Comments: Documentation</string>\n      <key>scope</key>\n      <string>comment.documentation, comment.block.documentation</string>\n      <key>settings</key>\n      <dict>\n        <!-- <key>background</key> -->\n        <!-- <string>#FFFDF7</string> -->\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <!-- <string>#BC670F</string> -->\n        <string>#a7adba</string>\n      </dict>\n    </dict>\n\n		<!-- 无效配置 Invalid  -->\n		<dict>\n      <key>name</key>\n      <!-- 过时的 -->\n      <string>Invalid - Deprecated</string>\n      <key>scope</key>\n      <string>invalid.deprecated</string>\n      <key>settings</key>\n      <dict>\n          <key>background</key>\n          <string>#EFCFCF</string>\n          <key>fontStyle</key>\n          <string>italic underline</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <!-- 非法的 -->\n      <string>Invalid - Illegal</string>\n      <key>scope</key>\n      <string>invalid.illegal</string>\n      <key>settings</key>\n      <dict>\n				<key>background</key>\n				<string>#bf616a</string>\n				<key>foreground</key>\n				<string>#eff1f5</string>\n      </dict>\n	  </dict>\n\n	  <!-- 操作符 Operator -->\n	  <dict>\n			<key>name</key>\n			<string>Operators</string>\n			<key>scope</key>\n			<string>keyword.operator</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#F92672</string>\n			</dict>\n		</dict>\n\n		<!-- 关键字 keywords -->\n		<dict>\n			<key>name</key>\n			<string>Keywords</string>\n			<key>scope</key>\n			<string>keyword</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#B41417</string>\n			</dict>\n		</dict>\n\n		<!-- 保留字 Storage (var, function,...)-->\n		<dict>\n			<key>name</key>\n			<string>Storage</string>\n			<key>scope</key>\n			<string>storage</string>\n			<key>settings</key>\n			<dict>\n				<key>fontStyle</key>\n        <string>italic</string>\n				<key>foreground</key>\n				<string>#346DEF</string>\n			</dict>\n		</dict>\n		<!-- 类型 Types-->\n		<dict>\n      <key>name</key>\n      <string>Types</string>\n      <key>scope</key>\n      <string>storage.type, support.type</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string>italic</string>\n        <key>foreground</key>\n        <!-- <string>#6700B9</string> -->\n        <string>#346DEF</string>\n      </dict>\n	  </dict>\n\n		<!-- 语言常量 -->\n		<dict>\n      <key>name</key>\n      <string>Language Constants</string>\n      <key>scope</key>\n      <string>constant.language, support.constant, variable.language</string>\n      <key>settings</key>\n      <dict>\n        <!-- <key>background</key>\n        <string>#F3F2FF</string> -->\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#7653C1</string>\n      </dict>\n    </dict>\n\n    <!-- 变量 Variables-->\n    <dict>\n      <key>name</key>\n      <string>Variables</string>\n      <key>scope</key>\n      <string>variable, support.variable</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <!-- <string>#bf616a</string> -->\n        <string>#47BF62</string>\n        <!-- <string>#4C8FC7</string> -->\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <!-- 变量标点符号 -->\n      <string>Variables: Punctuation</string>\n      <key>scope</key>\n      <string>variable punctuation</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#bf616a</string>\n      </dict>\n    </dict>\n\n    <!-- 函数 Functions -->\n    <dict>\n      <key>name</key>\n      <string>Functions</string>\n      <key>scope</key>\n      <string>entity.name.function, support.function, entity, meta.require, support.function.any-method</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#61862F</string>\n      </dict>\n	  </dict>\n	  <dict>\n			<key>name</key>\n			<string>Text</string>\n			<key>scope</key>\n			<!-- 函数参数 -->\n			<string>variable.parameter.function</string>\n			<key>settings</key>\n			<dict>\n				<key>fontStyle</key>\n        <string>italic</string>\n				<key>foreground</key>\n				<string>#4f5b66</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Methods</string>\n			<key>scope</key>\n			<string>keyword.other.special-method</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#8fa1b3</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Support</string>\n			<key>scope</key>\n			<string>support.function</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#779252</string>\n			</dict>\n		</dict>\n\n		<!-- 类 Classes -->\n	  <dict>\n      <key>name</key>\n      <string>Classes</string>\n      <key>scope</key>\n      <string>entity.name.class, entity.name.type, entity.name.type.class,entity.other.inherited-class, support.class</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <!-- <string>#d08770</string> -->\n        <string>#3A1D72</string>\n      </dict>\n    </dict>\n    <dict>\n			<key>name</key>\n			<string>Classes</string>\n			<key>scope</key>\n			<string>meta.class</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#343d46</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Inherited Class</string>\n			<key>scope</key>\n			<string>constant.other.symbol, entity.other.inherited-class</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#a3be8c</string>\n			</dict>\n		</dict>\n\n		<!-- 数字 Number -->\n		<dict>\n      <key>name</key>\n      <!-- <string>Numbers</string> -->\n      <string>Integers</string>\n      <key>scope</key>\n      <string>constant.numeric</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#F3F2FF</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#7653C1</string>\n      </dict>\n    </dict>\n    <dict>\n			<key>name</key>\n			<!-- 浮点型数字 -->\n			<string>Floats</string>\n			<key>scope</key>\n			<string>none</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n\n		<!-- 常量 Constants-->\n		<dict>\n			<key>name</key>\n			<string>Constants</string>\n			<key>scope</key>\n			<string>constant</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n\n	  <!-- 布尔类型 Boolean-->\n	  <dict>\n			<key>name</key>\n			<string>Boolean</string>\n			<key>scope</key>\n			<string>none</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n\n		<!-- 字符串 Strings -->\n	  <dict>\n      <key>name</key>\n      <string>Strings</string>\n      <key>scope</key>\n      <string>constant.character, string</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FBE9AD1A</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#BC670F</string>\n      </dict>\n    </dict>\n\n    <dict>\n      <key>name</key>\n      <!-- 字符串上的标点符号(单双引号) -->\n      <string>Strings: Punctuation</string>\n      <key>scope</key>\n      <string>string punctuation</string>\n      <key>settings</key>\n      <dict>\n          <key>fontStyle</key>\n          <string></string>\n          <key>foreground</key>\n          <string>#E69A4C</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <!-- <string>Escape Characters</string> -->\n      <string>Strings: Escape Sequences</string>\n      <key>scope</key>\n      <string>constant.character.escape</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <!-- <string>#FBE9ADCC</string> -->\n        <string>#779252</string>\n        <key>fontStyle</key>\n        <string>bold</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <!-- 正则表达式 -->\n      <string>Strings: Regular Expressions</string>\n      <key>scope</key>\n      <string>string.regexp</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <!-- <string>#699D36</string> -->\n        <string>#779252</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Strings: Symbols</string>\n      <key>scope</key>\n      <string>constant.other.symbol</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#E8FFD5</string>\n        <key>fontStyle</key>\n        <string>bold</string>\n      </dict>\n	  </dict>\n\n	  <!-- 标点符号 -->\n    <dict>\n      <key>name</key>\n      <string>Punctuation</string>\n      <key>scope</key>\n      <!-- <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string> -->\n      <string>punctuation</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#4f5b66</string>\n      </dict>\n	  </dict>\n\n		<!-- Embedded -->\n	  <dict>\n      <key>name</key>\n      <string>Embedded Source</string>\n      <key>scope</key>\n      <string>string source, text source</string>\n      <key>settings</key>\n      <dict>\n          <key>fontStyle</key>\n          <string></string>\n          <key>foreground</key>\n          <string>#434343</string>\n      </dict>\n	  </dict>\n	  <dict>\n			<key>name</key>\n			<string>Embedded</string>\n			<key>scope</key>\n			<string>punctuation.section.embedded, variable.interpolation</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#ab7967</string>\n			</dict>\n		</dict>\n\n		<!-- 定界符 -->\n		<dict>\n			<key>name</key>\n			<string>Delimiters</string>\n			<key>scope</key>\n			<string>none</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#4f5b66</string>\n			</dict>\n		</dict>\n\n		<!-- 异常 Exceptions -->\n		<dict>\n      <key>name</key>\n      <string>Exceptions</string>\n      <key>scope</key>\n      <string>entity.name.exception</string>\n      <key>settings</key>\n      <dict>\n        <key>foreground</key>\n        <string>#F93232</string>\n      </dict>\n    </dict>\n\n		<!-- Sections -->\n    <dict>\n      <key>name</key>\n      <string>Sections</string>\n      <key>scope</key>\n      <string>entity.name.section</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n      </dict>\n	  </dict>\n\n	  <dict>\n      <key>name</key>\n      <string>-----------------------------------</string>\n      <key>settings</key>\n      <dict>\n          <key>fontStyle</key>\n          <string></string>\n      </dict>\n    </dict>\n\n	  <!-- HTML -->\n   <dict>\n      <key>name</key>\n      <string>HTML: Tags</string>\n      <key>scope</key>\n      <string>entity.name.tag</string>\n      <key>settings</key>\n      <dict>\n          <!-- <key>background</key> -->\n          <!-- <string>#F4FAFF</string> -->\n          <key>fontStyle</key>\n          <string></string>\n          <key>foreground</key>\n          <!-- <string>#2F6F9F</string> -->\n          <string>#bf616a</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>HTML: Attribute Punctuation</string>\n      <key>scope</key>\n      <string>meta.tag string punctuation</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#E69A4C</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>HTML: Attribute Names</string>\n      <key>scope</key>\n      <string>entity.other.attribute-name</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#4F9FCF</string>\n        <!-- <string>#d08770</string> -->\n      </dict>\n    </dict>\n    <dict>\n			<key>name</key>\n			<string>Attribute IDs</string>\n			<key>scope</key>\n			<string>entity.other.attribute-name.id, punctuation.definition.entity</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#4F9FCF</string>\n			</dict>\n		</dict>\n		<dict>\n      <key>name</key>\n      <string>HTML: Attribute Values</string>\n      <key>scope</key>\n      <string>meta.tag string.quoted, meta.tag string.quoted constant.character.entity</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FBE9AD1A</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#BC670F</string>\n      </dict>\n    </dict>\n\n    <dict>\n      <key>name</key>\n      <string>-----------------------------------</string>\n      <key>settings</key>\n      <dict>\n          <key>fontStyle</key>\n          <string></string>\n      </dict>\n    </dict>\n\n    <!-- Css -->\n    <dict>\n      <key>name</key>\n      <!-- css选择器 -->\n      <string>CSS: Selectors</string>\n      <key>scope</key>\n      <string>meta.selector, meta.selector entity, meta.selector entity punctuation, entity.name.tag.css</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#3A77BF</string>\n        <!-- <string>#b48ead</string> -->\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>CSS: Property Names</string>\n      <key>scope</key>\n      <string>meta.property-name, support.type.property-name</string>\n      <key>settings</key>\n      <dict>\n        <key>foreground</key>\n        <string>#D4430D</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>CSS: Property Values</string>\n      <key>scope</key>\n      <string>meta.property-value constant.numeric, meta.property-value constant, meta.property-value keyword</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FFFFFF</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#43A202</string>\n        <!-- <string>#d08770</string> -->\n      </dict>\n    </dict>\n\n    <dict>\n      <key>name</key>\n      <string>-----------------------------------</string>\n      <key>settings</key>\n      <dict>\n          <key>fontStyle</key>\n          <string></string>\n      </dict>\n    </dict>\n\n    <!-- Markup -->\n    <dict>\n      <key>name</key>\n      <string>Markup: Changed</string>\n      <key>scope</key>\n      <string>markup.changed</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FFFFDD</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#000000</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Deletion</string>\n      <key>scope</key>\n      <string>markup.deleted</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FFDDDD</string>\n        <key>foreground</key>\n        <string>#000000</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Emphasis</string>\n      <key>scope</key>\n      <string>markup.italic</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string>italic</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Error</string>\n      <key>scope</key>\n      <string>markup.error</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#F93232</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#F9F2CE</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Insertion</string>\n      <key>scope</key>\n      <string>markup.inserted</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#DDFFDD</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#000000</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Output</string>\n      <key>scope</key>\n      <string>markup.output, markup.raw</string>\n      <key>settings</key>\n      <dict>\n        <key>foreground</key>\n        <string>#7F7F7F</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Prompt</string>\n      <key>scope</key>\n      <string>markup.prompt</string>\n      <key>settings</key>\n      <dict>\n        <key>foreground</key>\n        <string>#555555</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Heading</string>\n      <key>scope</key>\n      <string>markup.heading</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string>bold</string>\n\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Strong</string>\n      <key>scope</key>\n      <string>markup.bold</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string>bold</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Traceback</string>\n      <key>scope</key>\n      <string>markup.traceback</string>\n      <key>settings</key>\n      <dict>\n        <key>foreground</key>\n        <string>#F93232</string>\n      </dict>\n	  </dict>\n	  <dict>\n      <key>name</key>\n      <string>Markup: Underline</string>\n      <key>scope</key>\n      <string>markup.underline</string>\n      <key>settings</key>\n      <dict>\n        <key>fontStyle</key>\n        <string>underline</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>-----------------------------------</string>\n      <key>settings</key>\n      <dict/>\n    </dict>\n\n    <!-- Diff -->\n    <dict>\n      <key>name</key>\n      <string>Extra: Diff Range</string>\n      <key>scope</key>\n      <string>meta.diff.range, meta.diff.index, meta.separator</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#EAF2F5</string>\n        <key>fontStyle</key>\n        <string></string>\n        <key>foreground</key>\n        <string>#434343</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>Extra: Diff From</string>\n      <key>scope</key>\n      <string>meta.diff.header.from-file</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#FFDDDD</string>\n        <key>foreground</key>\n        <string>#434343</string>\n      </dict>\n    </dict>\n    <dict>\n      <key>name</key>\n      <string>Extra: Diff To</string>\n      <key>scope</key>\n      <string>meta.diff.header.to-file</string>\n      <key>settings</key>\n      <dict>\n        <key>background</key>\n        <string>#DDFFDD</string>\n        <key>foreground</key>\n        <string>#434343</string>\n      </dict>\n    </dict>\n\n		<!-- Other............................ -->\n		<dict>\n			<key>name</key>\n			<string>Units</string>\n			<key>scope</key>\n			<string>keyword.other.unit</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Bold</string>\n			<key>scope</key>\n			<string>markup.bold, punctuation.definition.bold</string>\n			<key>settings</key>\n			<dict>\n				<key>fontStyle</key>\n				<string>bold</string>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Italic</string>\n			<key>scope</key>\n			<string>markup.italic, punctuation.definition.italic</string>\n			<key>settings</key>\n			<dict>\n				<key>fontStyle</key>\n				<string>italic</string>\n				<key>foreground</key>\n				<string>#b48ead</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Code</string>\n			<key>scope</key>\n			<string>markup.raw.inline</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#a3be8c</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Link Text</string>\n			<key>scope</key>\n			<string>string.other.link</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#bf616a</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Link Url</string>\n			<key>scope</key>\n			<string>meta.link</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Lists</string>\n			<key>scope</key>\n			<string>markup.list</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#bf616a</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Quotes</string>\n			<key>scope</key>\n			<string>markup.quote</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#d08770</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Separator</string>\n			<key>scope</key>\n			<string>meta.separator</string>\n			<key>settings</key>\n			<dict>\n				<key>background</key>\n				<string>#dfe1e8</string>\n				<key>foreground</key>\n				<string>#4f5b66</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Inserted</string>\n			<key>scope</key>\n			<string>markup.inserted, markup.inserted.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#a3be8c</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Deleted</string>\n			<key>scope</key>\n			<string>markup.deleted, markup.deleted.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#bf616a</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Changed</string>\n			<key>scope</key>\n			<string>markup.changed, markup.changed.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#b48ead</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Ignored</string>\n			<key>scope</key>\n			<string>markup.ignored, markup.ignored.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#c0c5ce</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Untracked</string>\n			<key>scope</key>\n			<string>markup.untracked, markup.untracked.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#c0c5ce</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>Colors</string>\n			<key>scope</key>\n			<string>constant.other.color</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#779252</string>\n			</dict>\n		</dict>\n\n		<!-- GitGutter -->\n		<dict>\n			<key>name</key>\n			<string>GitGutter deleted</string>\n			<key>scope</key>\n			<string>markup.deleted.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#F92672</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>GitGutter inserted</string>\n			<key>scope</key>\n			<string>markup.inserted.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#A6E22E</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>GitGutter changed</string>\n			<key>scope</key>\n			<string>markup.changed.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#967EFB</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>GitGutter ignored</string>\n			<key>scope</key>\n			<string>markup.ignored.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#565656</string>\n			</dict>\n		</dict>\n		<dict>\n			<key>name</key>\n			<string>GitGutter untracked</string>\n			<key>scope</key>\n			<string>markup.untracked.git_gutter</string>\n			<key>settings</key>\n			<dict>\n				<key>foreground</key>\n				<string>#565656</string>\n			</dict>\n		</dict>\n\n		<!-- used for brackethighlighter plugin start-->\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Tag</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.tag</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#66CCCC</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Curly</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.curly</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#CC99CC</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Round</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.round</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#FFCC66</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Square</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.square</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#6699CC</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Angle</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.angle</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#F99157</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Quote</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.quote</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#99CC99</string>\n		    </dict>\n		</dict>\n		<dict>\n		    <key>name</key>\n		    <string>Bracket Unmatched</string>\n		    <key>scope</key>\n		    <string>brackethighlighter.unmatched</string>\n		    <key>settings</key>\n		    <dict>\n		        <key>foreground</key>\n		        <string>#F2777A</string>\n		    </dict>\n		</dict>\n    <!-- used for brackethighlighter plugin start-->\n\n		<!-- used for Block Cursor Everywhere plugin start-->\n		<dict>\n		    <key>name</key>\n		    <string>Block Cursor</string>\n		    <key>scope</key>\n		    <string>block_cursor</string>\n		    <key>settings</key>\n	    	<dict>\n		        <key>foreground</key>\n		        <string>#000000</string>\n		        <key>background</key>\n		        <string>#69CCF3</string>\n		    </dict>\n		</dict>\n    <!-- used for Block Cursor Everywhere plugin end-->\n	</array>\n	<key>uuid</key>\n	<string>52997033-52ea-4534-af9f-7572613947d8</string>\n</dict>\n</plist>\n",
+			"file": "/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/myTheme/i-ocean-light.tmTheme",
+			"file_size": 28745,
+			"file_write_time": 130888905370000000,
 			"settings":
 			{
-				"buffer_size": 3028,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "apache/mac_apache_config.md",
-			"settings":
-			{
-				"buffer_size": 4010,
+				"buffer_size": 28496,
 				"line_ending": "Unix"
 			}
 		}
@@ -643,10 +638,35 @@
 	"expanded_folders":
 	[
 		"/Users/icewater/x-dev/icewaters.github.io",
-		"/Users/icewater/x-dev/icewaters.github.io/vim"
+		"/Users/icewater/x-dev/icewaters.github.io/nodejs",
+		"/Users/icewater/x-dev/icewaters.github.io/ssh"
 	],
 	"file_history":
 	[
+		"/Users/icewater/x-dev/icewaters.github.io/nodejs/npm command.md",
+		"/Users/icewater/x-dev/icewaters.github.io/git/标签.md",
+		"/Users/icewater/x-dev/icewaters.github.io/apache/mac_apache_config.md",
+		"/Users/icewater/x-dev/icewaters.github.io/js/1.html",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_ddl.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_curd.md",
+		"/Users/icewater/x-dev/icewaters.github.io/nodejs/code/00/API/buffer02.js",
+		"/Users/icewater/x-dev/icewaters.github.io/nodejs/code/00/API/string.js",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_basic.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/export.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/wordpress.md",
+		"/Users/icewater/x-dev/icewaters.github.io/linux/ftp.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/sql_curd.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/php连接mysql问题.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_operation.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_grant_revoke.md",
+		"/Users/icewater/x-dev/icewaters.github.io/ssh/ssh.md",
+		"/Users/icewater/x-dev/icewaters.github.io/git/常用命令.md",
+		"/Users/icewater/x-dev/icewaters.github.io/git/远程仓库使用.md",
+		"/Users/icewater/x-dev/icewaters.github.io/apache/禁止列出目录结构.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql日期类型.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mac_mysql_install.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/sql/db.sql",
+		"/Users/icewater/x-dev/icewaters.github.io/git/git_basci.md",
 		"/Users/icewater/x-dev/php/php-console-master/examples/index.php",
 		"/Users/icewater/x-dev/icewaters.github.io/php/snippets/dump.php",
 		"/Users/icewater/x-dev/icewaters.github.io/vim/common operation.md",
@@ -750,31 +770,7 @@
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/&function2.php",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/&funtion.php",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/inner_function.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/return_function.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/clourse.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/clourse2.php",
-		"/Users/icewater/Desktop/CI密码.txt",
-		"/Users/icewater/Desktop/CI-20130827/news.sql",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/issues/can't have a default value.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_grant_revoke.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/wordpress/isntall.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/php连接mysql问题.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/demo.sql",
-		"/Users/icewater/Desktop/72_SQL语言的设计与编写（上）/code/demo.sql",
-		"/Users/icewater/Desktop/72_SQL语言的设计与编写（上）/code/shop.sql",
-		"/Users/icewater/Desktop/70_MySQL创建数据表（中）/code/demo.php",
-		"/Users/icewater/Desktop/71_MySQL创建数据表（下）/code/demo.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_curd.md",
-		"/Users/icewater/Desktop/69_MySQL创建数据表（上）/code/demo.php",
-		"/Users/icewater/Sites/dbconnect.php",
-		"/Users/icewater/Desktop/68_MySQL数据库管理系统概述/code/demo.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/php_basic_confi.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_operation",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mongoDB/mongoDB基本操作.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/redis/redis安装启动.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/atom/init.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/nodejs/code/00/API/process.standard.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/toString.call().js"
+		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/return_function.php"
 	],
 	"find":
 	{
@@ -940,24 +936,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "git/标签.md",
+					"file": "/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/myTheme/i-ocean-light.tmTheme",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3028,
+						"buffer_size": 28496,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								776,
-								776
+								494,
+								500
 							]
 						],
 						"settings":
@@ -965,31 +961,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1000,96 +981,6 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1483.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "apache/mac_apache_config.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4010,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2655,
-								2655
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
@@ -1099,15 +990,36 @@
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/i-ocean-dark.tmTheme",
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2022.0,
+						"translation.y": 27.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1221,7 +1133,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 220.0,
+	"side_bar_width": 172.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
