@@ -8,7 +8,7 @@ this._router.use(middleware.init(this));
 
 router.__proto__ = proto -> proto.handle, proto.param, proto.use ....
 router.params = {} // { id: [ [Function] ], age: [ [Function] ] } 初始化时讲参数和回调函数一一对应 等待请求时就可以立马得到执行
-router.stack = []
+router.stack = [] // 保存所有的中间件(回调函数或者路由上的回调函数)
 ```
 
 请求执行:

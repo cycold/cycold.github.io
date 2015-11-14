@@ -1,3 +1,21 @@
+关于express核心: 函数即对象. 
+当回调函数执行时,本身就是对象,携带着对象的属性方法,以便在执行时直接调用
+var app = express(); // 返回的就是一个函数(同时即对象)
+app就是顶层的一个回调函数(同时又是对象), 当请求开始时,最新执行app(req, res, next)函数
+所以整个express的框架的入口函数就是app,即: 当请求开始时,首先处理这个请求的就是从app函数入口
+即:
+```
+http.createServer(app);
+```
+app(req, res, next) 中调用: app.handle(req, res, next) 中调用: router.handle(req, res, next) 
+
+
+
+
+
+
+
+
 关于app.get方法: 当参数为一个时,则返回`app.settings`中的设置值
 `lib/appliication.js`
 当参数大于1时,处理http的get请求.
