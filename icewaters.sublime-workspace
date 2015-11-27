@@ -519,22 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "js/code/toString.call().js",
-			"settings":
-			{
-				"buffer_size": 1959,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 3670,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -645,11 +629,37 @@
 		"/Users/icewater/x-dev/icewaters.github.io",
 		"/Users/icewater/x-dev/icewaters.github.io/js",
 		"/Users/icewater/x-dev/icewaters.github.io/js/code",
-		"/Users/icewater/x-dev/icewaters.github.io/linux",
-		"/Users/icewater/x-dev/icewaters.github.io/webstorm"
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB"
 	],
 	"file_history":
 	[
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/ssl.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/start.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/note.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/nodejs_crypto.md",
+		"/Users/icewater/x-dev/icewaters.github.io/js/code/00.js",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/issues.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/mongoDB基本操作.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/command.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/ssl-2.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/Hmac算法.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto/info.md",
+		"/Users/icewater/x-dev/icewaters.github.io/redis/redis安装启动.md",
+		"/Users/icewater/x-dev/icewaters.github.io/redis/redis操作.md",
+		"/Users/icewater/x-dev/icewaters.github.io/js/注意函数参数最好不要再次声明.md",
+		"/Users/icewater/x-dev/icewaters.github.io/redis/redis持久化.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/Mac installation.md",
+		"/Users/icewater/x-dev/icewaters.github.io/crypto",
+		"/Users/icewater/x-dev/icewaters.github.io/README.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/import.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/Mongodb文档与集合.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/MongoDB数据类型.md",
+		"/Users/icewater/x-dev/icewaters.github.io/ssh/ssh.md",
+		"/Users/icewater/x-dev/icewaters.github.io/mongoDB/MongoDB Shell.md",
+		"/Users/icewater/x-dev/icewaters.github.io/js/code/toString.call().js",
+		"/Users/icewater/x-dev/icewaters.github.io/git/远程仓库使用.md",
+		"/Users/icewater/x-dev/icewaters.github.io/git/常用命令.md",
+		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/icewater/x-dev/icewaters.github.io/webstorm/basic.md",
 		"/Users/icewater/x-dev/icewaters.github.io/express/note.md",
 		"/Users/icewater/x-dev/icewaters.github.io/express/app.param.md",
@@ -680,9 +690,6 @@
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/php连接mysql问题.md",
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_operation.md",
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_grant_revoke.md",
-		"/Users/icewater/x-dev/icewaters.github.io/ssh/ssh.md",
-		"/Users/icewater/x-dev/icewaters.github.io/git/常用命令.md",
-		"/Users/icewater/x-dev/icewaters.github.io/git/远程仓库使用.md",
 		"/Users/icewater/x-dev/icewaters.github.io/apache/禁止列出目录结构.md",
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql日期类型.md",
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/mac_mysql_install.md",
@@ -753,31 +760,7 @@
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/static.php",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/static2.php",
 		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/static3.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/Returning References.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/php引用参数传递.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/js的一些杂论.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/传参.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/wordpress/install.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/php与js区别.md",
-		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/trailing_spaces.sublime-settings",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/php参数为数组传递.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/php值的传递.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/php参数对象传递.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/关于PHP中全局常量的理解.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/php中静态变量赋值以及为什么静态变量不能保存引用.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/使用var声明变量和直接赋值的区别.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/关于闭包的垃圾回收.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/函数声明和函数表达式的区别.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/字符串中使用数组的方法(call).md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/对函数变量对象的理解.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/异步编程的异常捕获.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/数组常用方法.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/闭包详解.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/forEach-for.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/javascript语言的一些设计错误.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/understand_closures.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/scope.js",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/js/code/闭包理解.js"
+		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/Returning References.php"
 	],
 	"find":
 	{
@@ -943,178 +926,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "js/code/toString.call().js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1603,
-								1603
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2683,
-								2683
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme.tmTheme",
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2427.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1223,7 +1036,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 172.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

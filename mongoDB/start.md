@@ -1,0 +1,1 @@
+mongod --dbpath x-data/db --logpath x-data/db/dblog --logappend --fork

@@ -1,3 +1,4 @@
+https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
 #### Mac下MongoDB数据库的安装
 1.选择版本
   下载地址: [Mongodb官网](http://www.mongodb.org)
@@ -25,7 +26,7 @@
 4. 启动数据库服务
   `mongod --dbpath $dbpath --logpath $logpath --logappend --fork`
 
-  其中`--dbpath`后面接的`$dbpath`为要启动的数据库路径,
+  其中`--dbpath`后面接的`$dbpath`为数据库所在的路径(目录),
   其中`--logpath`后面接的参数`$logpath`为要启动的数据库的日志文件路径
   其中`--logappend`表示已追加的方式打开文件
   其中`--fork` 表示将数据库服务放到后台运行
@@ -59,7 +60,8 @@
   echo 'mongod --dbpath data --logpath log/mongod.log --logappend --fork' >> mongod_start.sh
   ```
 
-在后台运行(--fork)必须启动日志服务
+**在后台运行(--fork)必须启动日志服务**    
+
 如何退出这个后台进程: `pkill mongod` 或者`killall mongod` 注意不要使用`kill 9`命令,那样会造成进程锁住,下次启动不了
 查找一个进程的pid或者查看一个进程是否运行 `pgrep -lf mongod` 或者 `ps aux | grep mongod` 或者 `ps -ef | grep mongod`
 
