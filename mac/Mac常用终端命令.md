@@ -8,9 +8,12 @@
 `pgrep -lf pname`   
 通过端口号,查看其进程,port为端口,注意端口号前面一半有:
 `lsof -i :portnumber`
-显示有哪些进程正在监听哪些端口(Good)
-`lsof -i | grep LISTEN`
-` lsof -i -P | grep -i "listen"`
+显示有哪些进程正在监听哪些端口(Good) 大写P选项很重要
+`lsof -i -P | grep LISTEN` (P选项为禁止端口号以字符串形式显示)
+`lsof -i -P | grep -i "listen"`
+`lsof -Pnl +M -i6`
+`lsof -Pnl +M -i4`
+`lsof -Pi6`
 如果想查看其他用户的 加上sudo
 `suod lsof -i | grep LISTEN`
 或者写上进程名
