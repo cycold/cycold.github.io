@@ -1,0 +1,1 @@
+通过手动执行node app.js启动主进程, 主进程内 有连个全局对象app, pomelo, 一启动就打上标记app.master
