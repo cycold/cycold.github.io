@@ -71,3 +71,9 @@ address=/googleapis.com/74.125.204.166
 当停止`dnsmasq`时,请改变wifi中的dns解析地址,因为使用`dnsmasq`时其解析地址为127.0.0.1,
 所以当停止`dnsmasq`时,一定要记得将wifi中的dns解析地址改为114.114.114.114,或者增加即可.
 这就是为什么当停止了dnsmasq服务时,访问不了任何网站的原因
+
+# 当dnsmasq服务启动不了时:
+`sudo launchctl start homebrew.mxcl.dnsmasq` 或者
+`sudo launchctl load /Library/LaunchDaemons/homebrew.mxcl.dnsmasq.plist`
+启动不了dnsmasq时:
+请一定考虑配置文件出错,尝试使用默认默认文件.`cp /usr/local/opt/dnsmasq/dnsmasq.conf.example /usr/local/etc/dnsmasq.conf`

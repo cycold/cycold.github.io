@@ -46,3 +46,55 @@ app.servers 是在 loadServers(app) 中确定的? 此时还没有直接设置到
 
 其中`app.startTime`不在init时赋值,而是在app.start执行时的第一行赋值
 `this.startTime = Date.now();`
+
+
+Application.addServers
+```
+this.serverTypes:>
+ [ 'gate', 'apn', 'chat', 'connector' ]
+```
+
+
+```
+this.serverTypeMaps:>
+ { gate: 
+   [ { main: '/Users/icewater/varicom/projects/socket-server/app.js',
+       env: 'local',
+       id: 'gate-server-1',
+       host: '127.0.0.1',
+       clientHost: '127.0.0.1',
+       clientPort: 3014,
+       frontend: 'true',
+       serverType: 'gate',
+       pid: 67670 } ],
+  apn: 
+   [ { main: '/Users/icewater/varicom/projects/socket-server/app.js',
+       env: 'local',
+       id: 'apn-server-1',
+       host: '127.0.0.1',
+       port: 7050,
+       serverType: 'apn',
+       pid: 67669 } ],
+  chat: 
+   [ { main: '/Users/icewater/varicom/projects/socket-server/app.js',
+       env: 'local',
+       id: 'chat-server-1',
+       host: '127.0.0.1',
+       port: 6050,
+       args: '--debug=5852',
+       serverType: 'chat',
+       pid: 67668 } ],
+  connector: 
+   [ { main: '/Users/icewater/varicom/projects/socket-server/app.js',
+       env: 'local',
+       id: 'connector-server-1',
+       host: '127.0.0.1',
+       port: 4050,
+       clientHost: '127.0.0.1',
+       clientPort: 3050,
+       frontend: 'true',
+       args: '--debug=5851',
+       serverType: 'connector',
+       pid: 67667 } ] }
+```
+
