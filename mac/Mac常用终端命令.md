@@ -21,6 +21,7 @@
 通过进程名杀死进程
 `pkill pname`
 `killall pname`
+`kill -9 pid`
 使用!(感叹号)取回命令最近使用的参数
 `!ps`
 使修改的配置文件马上生效
