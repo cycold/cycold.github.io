@@ -102,7 +102,7 @@ File | Settings | File Types
 参考:     
 http://blog.jetbrains.com/idea/2011/04/intellij-idea-does-not-show-some-files-know-the-hiding-places/    
 
-
+## 设置webstorm使用vim配置文件: `~/.ideavimrc`, 此文件中可以进行vim的配置,包括按键映射等..
 
 
 

@@ -12,3 +12,6 @@ console.log(wtf8.decode(text).length)
 var textPointCode = punycode.ucs2.decode(wtf8.decode(text))
 console.log(textPointCode)
 console.log(textPointCode.length)
+
+
+console.log(wtf8.decode('\xe6\xb5\x8b\xe8\xaf\x95\xe6\xa0\x87\xe7\xad\xbe\xe6\x96\xb0'))

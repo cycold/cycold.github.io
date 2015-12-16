@@ -69,7 +69,85 @@ if(self.app.getServerType() !== routeRecord.serverType) {
     }
 ```
 
+现在前端的请求过来了,那么怎么分配此次请求的具体的处理函数呢(handler)? 
+doHandle(self, msg, session, routeRecord, function(err, resp, opts) {}
+由doHandle函数来做路由分配根据传过来的msg中的route, 如果路由为`route: connector.entryHandler.enter`
+那么就有connector目录下的handler下的entryHandler.js文件中的enter方法
+
+dohandler中首先:`beforeFilter(false, server, msg, session, handle);`
+最后调用: 
+```
+self.handlerService.handle(routeRecord, msg, session, function(err, resp, opts) {
+      if(err) {
+        //error from handler
+        handleError(false, self, err, msg, session, resp, opts, function(err, resp, opts) {
+          response(false, self, err, msg, session, resp, opts, cb);
+        });
+        return;
+      }
+
+      response(false, self, err, msg, session, resp, opts, cb);
+    });
+```
+
+self.handlerService =  new HandlerService(app, opts)
+
+server.js 文件
+`var HandlerService = require('../common/service/handlerService');`
+
+```
+Service.prototype.handle = function(routeRecord, msg, session, cb) {
+  // the request should be processed by current server
+  var handler = this.getHandler(routeRecord); // 根据路由 require具体的文件 require('connector/handler/entryHandler.js')
+  if(!handler) {
+    logger.error('[handleManager]: fail to find handler for %j', msg.__route__);
+    utils.invokeCallback(cb, new Error('fail to find handler for ' + msg.__route__));
+    return;
+  }
+  var start = Date.now();
+
+  // require('connector/handler/entryHandler.js') 调用里面具体的方法根据传过来路由
+  handler[routeRecord.method](msg, session, function(err, resp, opts) {
+    var log = {
+      route : msg.__route__,
+      args : msg,
+      time : utils.format(new Date(start)),
+      timeUsed : new Date() - start
+    };
+    forwardLogger.info(JSON.stringify(log));
+    //console.log('resp:>\n');
+    //console.dir(resp, {depth:null});
+    utils.invokeCallback(cb, err, resp, opts);
+  });
+  return;
+};
+```
 
 
 
 
+
+
+`connector.js --> server.js --> lib/common/service/handlerService.js`
+
+
+servers目录下的路由就映射为:`handler[routeRecord.method](msg, session, function(err, resp, opts) {...})`
+
+当底层socket触发message事件时,首先decode(msg)得到路由以及其他的信息(由pomleo底层二进制协议封装(见pomelo-protocol协议))
+得到路由后,通过解析路由,将此次事件请求分配到的具体的处理函数(servers目录下文件中)
+
+handler[routeRecord.method] === handler.enter
+
+
+module.exports = function(app) {
+    return new Handler(app);
+};
+var Handler = function(app) {
+    this.app = app;
+    this.biz_redis = app.get('biz_redis');
+};
+handler.enter = function(msg, session, next) {}
+中的next回调方法中最终才会调用:  `response(false, self, err, msg, session, resp, opts, cb);`
+
+所以最终返回客户端的都是调用`response(false, self, err, msg, session, resp, opts, cb);` 方法, 其中cb是最后的回调函数,如果最后没有什么操作,
+那么,cb至少必须为一个空函数,不能省略

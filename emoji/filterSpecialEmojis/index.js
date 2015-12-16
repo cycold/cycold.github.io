@@ -2,7 +2,7 @@ var punycode = require('punycode')
 var _specialEmojiCodes = require('./_special_emojis.json')
 
 /**
- * 过滤消息msg中的特定的emoji字符
+ * 过滤消息msg中特定的emoji字符
  * @param  {String} msg                    需要过滤的消息字符串
  * @param  {Object} specialEmojiCodes      使用外部json文件定义需要过滤的emoji表情的unicode码范围,使用范围判断,避免循环判断
  * @param  {Array}  years                  json文件中定义的新增加的emoji表情的年份 ['2015']
