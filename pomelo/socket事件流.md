@@ -124,10 +124,6 @@ Service.prototype.handle = function(routeRecord, msg, session, cb) {
 ```
 
 
-
-
-
-
 `connector.js --> server.js --> lib/common/service/handlerService.js`
 
 
@@ -147,7 +143,78 @@ var Handler = function(app) {
     this.biz_redis = app.get('biz_redis');
 };
 handler.enter = function(msg, session, next) {}
-中的next回调方法中最终才会调用:  `response(false, self, err, msg, session, resp, opts, cb);`
+中的next回调方法中最终才会调用:  `response(false, self, err, msg, session, resp, opts, cb);` 在server.js文件中
 
 所以最终返回客户端的都是调用`response(false, self, err, msg, session, resp, opts, cb);` 方法, 其中cb是最后的回调函数,如果最后没有什么操作,
 那么,cb至少必须为一个空函数,不能省略
+
+``` server.js
+var response = function(isGlobal, server, err, msg, session, resp, opts, cb) {
+  if(isGlobal) {
+    cb(err, resp, opts);
+    // after filter should not interfere response
+    afterFilter(isGlobal, server, err, msg, session, resp, opts, cb);
+  } else {
+    afterFilter(isGlobal, server, err, msg, session, resp, opts, cb);
+  }
+};
+
+```
+
+其中cb是最后的回调函数,在这里执行(connect.js):
+self.server.globalHandle(msg, session.toFrontendSession(), function(err, resp, opts) {
+    if(resp && !msg.id) {
+      logger.warn('try to response to a notify: %j', msg.route);
+      return;
+    }
+    if (!msg.id && !resp) return;
+    if (!resp) resp = {};
+    if (!!err && !resp.code){
+      resp.code = 500;
+    }
+    opts = {type: 'response', userOptions: opts || {}};
+    // for compatiablity
+    opts.isResponse = true;
+
+    self.send(msg.id, msg.route, resp, [session.id], opts,
+      function() {});
+  });
+
+  所以整个流程最终是通过self.send(msg.id, msg.route, resp, [session.id], opts,function() {}); 建行消息送给客户端的.
+
+  send 方法: 发送之前进行 编码encode
+  ```
+  pro.send = function(reqId, route, msg, recvs, opts, cb) {
+  logger.debug('[%s] send message reqId: %s, route: %s, msg: %j, receivers: %j, opts: %j', this.app.serverId, reqId, route, msg, recvs, opts);
+  console.log('connector send message:>\n');
+  console.dir(msg,{depth:null})
+  //console.log('-------------------');
+  var emsg = msg;
+  if(this.encode) {
+    // use costumized encode
+    console.log('use costumized encode');
+    emsg = this.encode.call(this, reqId, route, msg);
+  } else if(this.connector.encode) {
+    console.log('use connector default encode');
+    // use connector default encode
+    emsg = this.connector.encode(reqId, route, msg);
+    //console.log('emsg:>\n');
+    //console.dir(emsg, {depth: null});
+  }
+
+  if(!emsg) {
+    process.nextTick(function() {
+      utils.invokeCallback(cb, new Error('fail to send message for encode result is empty.'));
+      return;
+    });
+  }
+
+  this.app.components.__pushScheduler__.schedule(reqId, route, emsg,
+      recvs, opts, cb);
+};
+  ```
+
+最终在是没有直接发送,而是保存在:`this.app.components.__pushScheduler__`组件中,有此组件进行调度发送
+```
+this.app.components.__pushScheduler__.schedule(reqId, route, emsg,recvs, opts, cb);
+```

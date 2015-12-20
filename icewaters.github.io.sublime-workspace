@@ -4,12 +4,32 @@
 		"selected_items":
 		[
 			[
-				"com",
-				"component"
+				"str",
+				"strCodePoints"
+			],
+			[
+				"e1",
+				"e1PointCode"
+			],
+			[
+				"log",
+				"log	log"
+			],
+			[
+				"res",
+				"result"
 			],
 			[
 				"req",
-				"require"
+				"req	require"
+			],
+			[
+				"cdn-j",
+				"cdn-jQuery	cdn-jquery"
+			],
+			[
+				"com",
+				"component"
 			],
 			[
 				"ser",
@@ -92,10 +112,6 @@
 				"log2"
 			],
 			[
-				"res",
-				"resolve"
-			],
-			[
 				"inde",
 				"indexOf"
 			],
@@ -126,10 +142,6 @@
 			[
 				"cl",
 				"cleanArr"
-			],
-			[
-				"str",
-				"strObj"
 			],
 			[
 				"to",
@@ -270,10 +282,6 @@
 			[
 				"sign",
 				"signin"
-			],
-			[
-				"log",
-				"log	log"
 			],
 			[
 				"us",
@@ -506,14 +514,6 @@
 			[
 				"person",
 				"Person2"
-			],
-			[
-				"per",
-				"Person2"
-			],
-			[
-				"loca",
-				"locationCells"
 			]
 		]
 	},
@@ -527,10 +527,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 118.0,
-		"last_filter": "install",
+		"height": 375.0,
+		"last_filter": "git",
 		"selected_items":
 		[
+			[
+				"git",
+				"Gitignore: New gitignore"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -604,7 +608,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 494.0
+		"width": 507.0
 	},
 	"console":
 	{
@@ -626,10 +630,86 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/icewater/icewaters.github.io"
+		"/Users/icewater/icewaters.github.io",
+		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis",
+		"/Users/icewater/icewaters.github.io/js/code",
+		"/Users/icewater/icewaters.github.io/nodejs/child_process.js",
+		"/Users/icewater/icewaters.github.io/nodejs/code/00",
+		"/Users/icewater/icewaters.github.io/nodejs/code/00/API"
 	],
 	"file_history":
 	[
+		"/Users/icewater/icewaters.github.io/nodejs/child_process.js/master.js",
+		"/Users/icewater/icewaters.github.io/nodejs/child_process.js/worker.js",
+		"/Users/icewater/icewaters.github.io/js/code/toString.call().js",
+		"/Users/icewater/icewaters.github.io/pomelo/connector.md",
+		"/Users/icewater/icewaters.github.io/pomelo/socket事件流.md",
+		"/Users/icewater/icewaters.github.io/index.html",
+		"/Users/icewater/varicom/projects-to-commit/socket-server/app/servers/chat/filter/emojiFilter.js",
+		"/Users/icewater/Library/Caches/Cornerstone/Store/https%3A%2F%2Fchenyong%40172.16.1.3%2Fsvn%2Fdev/0000028785/Service/metallica/socket-server/app/servers/chat/filter/emojiFilter.js",
+		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/index.js",
+		"/Users/icewater/.ideavimrc",
+		"/Users/icewater/icewaters.github.io/webstorm/basic.md",
+		"/Users/icewater/icewaters.github.io/vim/vim按键映射.md",
+		"/Users/icewater/icewaters.github.io/crypto/command.md",
+		"/Users/icewater/icewaters.github.io/crypto/nodejs_crypto.md",
+		"/Users/icewater/icewaters.github.io/nodejs/EADDRINUSE地址冲突错误.md",
+		"/Users/icewater/icewaters.github.io/nodejs/npm command.md",
+		"/Users/icewater/icewaters.github.io/TCPIP/ack.md",
+		"/Users/icewater/icewaters.github.io/mysql/mysql日期类型.md",
+		"/Users/icewater/icewaters.github.io/emoji/unicode.js",
+		"/Users/icewater/icewaters.github.io/emoji/parse3.js",
+		"/Users/icewater/icewaters.github.io/emoji/emoji.json",
+		"/Users/icewater/icewaters.github.io/redis/redis安装启动.md",
+		"/Users/icewater/icewaters.github.io/README.md",
+		"/Users/icewater/icewaters.github.io/SUMMARY.md",
+		"/Users/icewater/icewaters.github.io/emoji/_error.js",
+		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_test.js",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/wtf-8/README.md",
+		"/usr/local/etc/dnsmasq.conf",
+		"/Users/icewater/icewaters.github.io/.gitignore",
+		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_special_emojis.json",
+		"/Users/icewater/icewaters.github.io/dnsmasq/dnsmasq.md",
+		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_emojis.json",
+		"/Users/icewater/icewaters.github.io/emoji/filter/index.js",
+		"/Users/icewater/icewaters.github.io/emoji/emojiFilter/index.js",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/wtf-8/wtf-8.js",
+		"/Users/icewater/icewaters.github.io/emoji/03.js",
+		"/Users/icewater/icewaters.github.io/emoji/parse.js",
+		"/Users/icewater/icewaters.github.io/emoji/t.js",
+		"/Users/icewater/icewaters.github.io/emoji/02.js",
+		"/Users/icewater/icewaters.github.io/emoji/emojiFilter/_emojis.json",
+		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/icewater/icewaters.github.io/emoji/parse2.js",
+		"/Users/icewater/icewaters.github.io/emoji/01.js",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/emoji/lib/emoji.js",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/emoji/bin/create_emoji_js.py",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/redis/lib/parsers/javascript.js",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/redis/index.js",
+		"/Users/icewater/icewaters.github.io/redis/redis操作.md",
+		"/Users/icewater/icewaters.github.io/mac/common soft for mac.md",
+		"/Users/icewater/icewaters.github.io/mac/install.dnsmasq.md",
+		"/etc/hosts",
+		"/Users/icewater/icewaters.github.io/pomelo/pomelo.app.start.js",
+		"/Users/icewater/icewaters.github.io/pomelo/app.attr.md",
+		"/Users/icewater/icewaters.github.io/mac/Mac常用终端命令.md",
+		"/Users/icewater/icewaters.github.io/emoji/node_modules/emoji/index.js",
+		"/Users/icewater/icewaters.github.io/book.json",
+		"/usr/local/etc/resolv.dnsmasq.conf",
+		"/Users/icewater/icewaters.github.io/test/00.js",
+		"/Users/icewater/icewaters.github.io/redis/redis数据结构.md",
+		"/Applications/Charles.app/Contents/Info.plist",
+		"/Users/icewater/icewaters.github.io/pomelo/app.js",
+		"/Users/icewater/icewaters.github.io/pomelo/pomelo.app.init.js",
+		"/Users/icewater/icewaters.github.io/pomelo/init2.md",
+		"/Users/icewater/icewaters.github.io/pomelo/start.js",
+		"/Users/icewater/icewaters.github.io/pomelo/config.js",
+		"/Users/icewater/icewaters.github.io/pomelo/init.js",
+		"/Users/icewater/icewaters.github.io/pomelo/pomelo.js",
+		"/Users/icewater/icewaters.github.io/pomelo/main.md",
+		"/Users/icewater/icewaters.github.io/pomelo/components.md",
+		"/Users/icewater/icewaters.github.io/pomelo/master.md",
+		"/Users/icewater/icewaters.github.io/pomelo/issues.md",
 		"/Users/icewater/init/x-node/express/00/express/package.json",
 		"/Users/icewater/init/x-node/readme.md",
 		"/Users/icewater/init/x-dev/icewaters.github.io/pomelo/pomelo.app.init.js",
@@ -668,7 +748,6 @@
 		"/Users/icewater/x-dev/icewaters.github.io/js/code/toString.call().js",
 		"/Users/icewater/x-dev/icewaters.github.io/git/远程仓库使用.md",
 		"/Users/icewater/x-dev/icewaters.github.io/git/常用命令.md",
-		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/icewater/x-dev/icewaters.github.io/webstorm/basic.md",
 		"/Users/icewater/x-dev/icewaters.github.io/express/note.md",
 		"/Users/icewater/x-dev/icewaters.github.io/express/app.param.md",
@@ -687,81 +766,11 @@
 		"/Users/icewater/x-dev/icewaters.github.io/apache/mac_apache_config.md",
 		"/Users/icewater/x-dev/icewaters.github.io/js/1.html",
 		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_ddl.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_curd.md",
-		"/Users/icewater/x-dev/icewaters.github.io/nodejs/code/00/API/buffer02.js",
-		"/Users/icewater/x-dev/icewaters.github.io/nodejs/code/00/API/string.js",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_basic.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/export.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/wordpress.md",
-		"/Users/icewater/x-dev/icewaters.github.io/linux/ftp.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/sql_curd.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/php连接mysql问题.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_operation.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_grant_revoke.md",
-		"/Users/icewater/x-dev/icewaters.github.io/apache/禁止列出目录结构.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql日期类型.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mac_mysql_install.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/sql/db.sql",
-		"/Users/icewater/x-dev/icewaters.github.io/git/git_basci.md",
-		"/Users/icewater/x-dev/php/php-console-master/examples/index.php",
-		"/Users/icewater/x-dev/icewaters.github.io/php/snippets/dump.php",
-		"/Users/icewater/x-dev/icewaters.github.io/vim/common operation.md",
-		"/Users/icewater/x-dev/x/pcbdic/application/controllers/Welcome.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/index.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/style.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/controllers/admin/main.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/less/core.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/config/config.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/.csscomb.json",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/.scss-lint.yml",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/_alert.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/_close.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/bootstrap-grid.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/mixins/_alert.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/bootstrap-flex.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/dist/css/bootstrap.css",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/Gruntfile.js",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/package.js",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/package.json",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/bootstrap-reboot.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/mixins/_text-hide.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/scss/mixins/_text-truncate.scss",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/dist/js/bootstrap.js",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/dist/js/npm.js",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/dist/css/bootstrap.min.css",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/docs/index.html",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/grunt/npm-shrinkwrap.json",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/sass/bootstrap-4-dev/grunt/bs-sass-compile/sass.js",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/starter.html",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/index.html",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/less/AdminLTE.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/bootstrap-less/mixins.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/bootstrap-less/mixins/clearfix.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/less/table.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/build/less/mixins.less",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/style/style.css",
-		"/Users/icewater/x-dev/x/pcbdic/application/views/admin/lte/dist/css/AdminLTE.css",
-		"/Users/icewater/x-dev/x/pcbdic/application/controllers/admin/index.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/config/database.php",
-		"/Users/icewater/x-dev/x/pcbdic/application/config/autoload.php",
-		"/Users/icewater/x-dev/x/pcbdic/pcbdic.sql",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mac_mysql_install.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/export.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_basic.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql日期类型.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_ddl.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/mysql_operation.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/sql/01.sql",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/apache/mac_apache_config.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/shop.sql",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/mysql/sql_curd.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/函数嵌套定义.php",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/php函数的声明函数的嵌套.md",
-		"/Users/icewater/x-dev/TT/icewaters.github.io/php/code/__construct.php"
+		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_curd.md"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -777,6 +786,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"str",
+			"emojiCodes",
+			"xf0",
+			"test",
+			"e1",
+			"e2",
+			"resolv-file",
+			"serverTypeMaps",
 			"lifecycleCbs",
 			"monitor",
 			"bull",
@@ -896,15 +913,7 @@
 			"parameter",
 			"paramete",
 			"parameter",
-			"variable.parameter.function",
-			"meta.selector",
-			"selector",
-			"Selectors",
-			"selector",
-			"Selector",
-			"Values",
-			"entity.other.attribute-name",
-			"inherited"
+			"variable.parameter.function"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -930,7 +939,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 39.0
 	},
 	"input":
 	{
@@ -961,7 +970,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 365.0
+		"height": 179.0
 	},
 	"output.find_results":
 	{
@@ -1033,7 +1042,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 191.0,
+	"side_bar_width": 277.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
