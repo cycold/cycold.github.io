@@ -519,6 +519,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dnsmasq/dnsmasq.md",
+			"settings":
+			{
+				"buffer_size": 2422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "apache/mac_apache_config.md",
+			"settings":
+			{
+				"buffer_size": 3956,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/etc/apache2/extra/httpd-vhosts.conf",
+			"settings":
+			{
+				"buffer_size": 2378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/etc/hosts",
+			"settings":
+			{
+				"buffer_size": 445,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -630,21 +670,35 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/icewater/icewaters.github.io",
-		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis",
-		"/Users/icewater/icewaters.github.io/js/code",
-		"/Users/icewater/icewaters.github.io/nodejs/child_process.js",
-		"/Users/icewater/icewaters.github.io/nodejs/code/00",
-		"/Users/icewater/icewaters.github.io/nodejs/code/00/API"
+		"/Users/icewater/icewaters.github.io/apache"
 	],
 	"file_history":
 	[
+		"/Users/icewater/icewaters.github.io/svn/init.md",
+		"/Users/icewater/icewaters.github.io/mysql/sql_curd.md",
+		"/Users/icewater/icewaters.github.io/redis/redis-dump/init.md",
+		"/Users/icewater/icewaters.github.io/redis/redis安装启动.md",
+		"/Users/icewater/icewaters.github.io/mysql/new/_delete.md",
+		"/Users/icewater/icewaters.github.io/mysql/mysql_ddl.md",
+		"/Users/icewater/icewaters.github.io/mysql/mysql_operation.md",
+		"/Users/icewater/icewaters.github.io/mysql/mysql_basic.md",
+		"/Users/icewater/icewaters.github.io/mysql/mysql_curd.md",
+		"/Users/icewater/icewaters.github.io/mysql/wordpress.md",
+		"/Users/icewater/icewaters.github.io/mysql/mac_mysql_install.md",
+		"/Users/icewater/icewaters.github.io/mysql/sql/db.sql",
+		"/Users/icewater/icewaters.github.io/mac/Mac常用终端命令.md",
+		"/Users/icewater/icewaters.github.io/index.html",
+		"/Users/icewater/icewaters.github.io/.gitignore",
+		"/Users/icewater/icewaters.github.io/pptp/init.md",
+		"/Users/icewater/icewaters.github.io/pptp/chap-secrets.txt",
+		"/Users/icewater/icewaters.github.io/pptp/mome.txt",
+		"/Users/icewater/icewaters.github.io/redis/redis配置.md",
+		"/Users/icewater/icewaters.github.io/redis/redis持久化.md",
 		"/Users/icewater/icewaters.github.io/nodejs/child_process.js/master.js",
 		"/Users/icewater/icewaters.github.io/nodejs/child_process.js/worker.js",
 		"/Users/icewater/icewaters.github.io/js/code/toString.call().js",
 		"/Users/icewater/icewaters.github.io/pomelo/connector.md",
 		"/Users/icewater/icewaters.github.io/pomelo/socket事件流.md",
-		"/Users/icewater/icewaters.github.io/index.html",
 		"/Users/icewater/varicom/projects-to-commit/socket-server/app/servers/chat/filter/emojiFilter.js",
 		"/Users/icewater/Library/Caches/Cornerstone/Store/https%3A%2F%2Fchenyong%40172.16.1.3%2Fsvn%2Fdev/0000028785/Service/metallica/socket-server/app/servers/chat/filter/emojiFilter.js",
 		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/index.js",
@@ -660,14 +714,12 @@
 		"/Users/icewater/icewaters.github.io/emoji/unicode.js",
 		"/Users/icewater/icewaters.github.io/emoji/parse3.js",
 		"/Users/icewater/icewaters.github.io/emoji/emoji.json",
-		"/Users/icewater/icewaters.github.io/redis/redis安装启动.md",
 		"/Users/icewater/icewaters.github.io/README.md",
 		"/Users/icewater/icewaters.github.io/SUMMARY.md",
 		"/Users/icewater/icewaters.github.io/emoji/_error.js",
 		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_test.js",
 		"/Users/icewater/icewaters.github.io/emoji/node_modules/wtf-8/README.md",
 		"/usr/local/etc/dnsmasq.conf",
-		"/Users/icewater/icewaters.github.io/.gitignore",
 		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_special_emojis.json",
 		"/Users/icewater/icewaters.github.io/dnsmasq/dnsmasq.md",
 		"/Users/icewater/icewaters.github.io/emoji/filterSpecialEmojis/_emojis.json",
@@ -692,7 +744,6 @@
 		"/etc/hosts",
 		"/Users/icewater/icewaters.github.io/pomelo/pomelo.app.start.js",
 		"/Users/icewater/icewaters.github.io/pomelo/app.attr.md",
-		"/Users/icewater/icewaters.github.io/mac/Mac常用终端命令.md",
 		"/Users/icewater/icewaters.github.io/emoji/node_modules/emoji/index.js",
 		"/Users/icewater/icewaters.github.io/book.json",
 		"/usr/local/etc/resolv.dnsmasq.conf",
@@ -750,27 +801,11 @@
 		"/Users/icewater/x-dev/icewaters.github.io/git/常用命令.md",
 		"/Users/icewater/x-dev/icewaters.github.io/webstorm/basic.md",
 		"/Users/icewater/x-dev/icewaters.github.io/express/note.md",
-		"/Users/icewater/x-dev/icewaters.github.io/express/app.param.md",
-		"/Users/icewater/x-dev/icewaters.github.io/book.json",
-		"/Users/icewater/x-dev/icewaters.github.io/express/app.use.md",
-		"/Users/icewater/x-dev/icewaters.github.io/express/init.md",
-		"/Users/icewater/x-dev/icewaters.github.io/express/app.get.md",
-		"/Users/icewater/x-dev/icewaters.github.io/express/main.md",
-		"/Users/icewater/x-dev/icewaters.github.io/express/path-to-reg.md",
-		"/Users/icewater/x-dev/icewaters.github.io/images/sublimeText/Screen Shot 2015-09-28 at 21.48.16.png",
-		"/Users/icewater/x-dev/icewaters.github.io/images/sublimeText/Screen Shot 2015-09-28 at 21.48.36.png",
-		"/Users/icewater/x-dev/icewaters.github.io/images/webstorm/Screen Shot 2015-09-28 at 21.14.49.png",
-		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/myTheme/i-ocean-light.tmTheme",
-		"/Users/icewater/x-dev/icewaters.github.io/nodejs/npm command.md",
-		"/Users/icewater/x-dev/icewaters.github.io/git/标签.md",
-		"/Users/icewater/x-dev/icewaters.github.io/apache/mac_apache_config.md",
-		"/Users/icewater/x-dev/icewaters.github.io/js/1.html",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_ddl.md",
-		"/Users/icewater/x-dev/icewaters.github.io/mysql/mysql_curd.md"
+		"/Users/icewater/x-dev/icewaters.github.io/express/app.param.md"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -786,6 +821,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"7777",
 			"str",
 			"emojiCodes",
 			"xf0",
@@ -912,8 +948,7 @@
 			"Delimiters",
 			"parameter",
 			"paramete",
-			"parameter",
-			"variable.parameter.function"
+			"parameter"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -932,14 +967,434 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								598
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "dnsmasq/dnsmasq.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2422,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1647,
+								1606
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1148.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "apache/mac_apache_config.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3956,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3222,
+								2793
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "UTF-8",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2343.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/etc/apache2/extra/httpd-vhosts.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2100,
+								2100
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/ApacheConf.tmLanguage/ApacheConf.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 903.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/etc/hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 445,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								244,
+								244
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 39.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -984,7 +1439,7 @@
 	"project": "icewaters.github.io.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1042,7 +1497,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 277.0,
+	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

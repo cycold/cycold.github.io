@@ -182,6 +182,8 @@ update test set uid='php200' where id=6 　　　　　　　　　　　　　�
 
 Delete from dbname.`test` where id=3
 
+查看某个表里的记录数
+select count(*) from table;
 
 
 
