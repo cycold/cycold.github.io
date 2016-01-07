@@ -26,4 +26,13 @@ font style不要选择粗体,选择常规即可
 Consolas `Regular` 14pt
 Consolas 或者 Courier New 这两种字体都不错.
 
+#### secureCRT 在mac下不能记住密码: 
+`(comman + ,) 打开设置, 去掉 Use Keychain`
 
+#### secureCRT自动登录跳板机:
+session options --> Connection --> Logon Actions --> 
+```
+http://jingyan.baidu.com/article/c1a3101e87a0cede656deb2a.html
+下面的ogin表示的是要登录的远程机器名。注意勾选自动登录选项后add或者edit、delete按钮才是可点击的
+ogin和assword必须这样用，比如改成login或者password不生效
+```
