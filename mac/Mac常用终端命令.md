@@ -7,7 +7,29 @@
 根据进程名(pname)获取pid,反之获取进程名     
 `ps -ef | grep pname`   
 `ps aux | grep pname`   
-`pgrep -lf pname`   
+`pgrep -lf pname`   例如: pgrep -lf node (会详细显示进程启动参数)
+`ps -fj` 列出进程的id,父id,
+
+> 注意使用`man ps`
+> `-f`  选项会列出  用户id(UID), 进程id(PID), 进程父id(PPID), cpu使用(C), 进程开始时间(STIME), CMD为启动命令
+> 如果`-u`选项使用,会直接显示用户名而不是用户的uid
+> Display the uid, pid, parent pid, recent CPU usage, process start time, controlling tty, elapsed CPU usage, and the associated command.  If the
+> -u option is also used, display the user name rather then the numeric uid.  When -o or -O is used to add to the display following -f, the com
+> mand field is not truncated as severely as it is in other formats.
+
+> 注意使用`ps -fj` 命令行会被 `truncated`截断. 如果需要显示完整的命令, 使用-o 或者 -O
+> `ps -fjO` 无效, -f 必须在-O后面
+> `ps -jOf` 有效
+> `ps -Of`
+
+`ps -jOf | grep node`
+`ps -Of`
+
+```
+  UID   PID  PPID   C STIME   TTY           TIME CMD              USER      PGID   SESS JOBC STAT   TT
+  501   871   838   0 Thu09AM ttys000    0:00.64 -/bin/zsh        icewater   871      0    0 Ss   s000
+```
+
 通过端口号,查看其进程,port为端口,注意端口号前面一半有:
 `lsof -i :portnumber`
 显示有哪些进程正在监听哪些端口(Good) 大写P选项很重要
