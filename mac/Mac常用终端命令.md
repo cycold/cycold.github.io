@@ -5,7 +5,13 @@
 查看系统支持的shell
 `cat /etc/shells`   
 根据进程名(pname)获取pid,反之获取进程名     
-`ps -ef | grep pname`   
+`ps -ef | grep pname`   (mac和linux都兼容)
+
+```
+ 501  8148  8130   0 10:27AM ??         0:01.60 node /Users/icewater/varicom/_pomelo/hello/web-server/app.js
+ UID  PID   PPID                                CMD  脚本与参数    
+```
+
 `ps aux | grep pname`   
 `pgrep -lf pname`   例如: pgrep -lf node (会详细显示进程启动参数)
 `ps -fj` 列出进程的id,父id,
@@ -29,6 +35,9 @@
   UID   PID  PPID   C STIME   TTY           TIME CMD              USER      PGID   SESS JOBC STAT   TT
   501   871   838   0 Thu09AM ttys000    0:00.64 -/bin/zsh        icewater   871      0    0 Ss   s000
 ```
+
+总结: 既可以看启动命令,有可以看到父子进程关系:
+`ps -f | grep node`
 
 通过端口号,查看其进程,port为端口,注意端口号前面一半有:
 `lsof -i :portnumber`
