@@ -2,6 +2,7 @@ Git 命令别名
 Git 并不会推断你输入的几个字符将会是哪条命令，不过如果想偷懒，
 少敲几个命令的字符，可以用 git config 为命令设置别名。
 来看看下面的例子：
+`--gobal` 表示会写入`~/.gitconfig`文件中
 ```
 $ git config --global alias.co checkout
 $ git config --global alias.br branch
@@ -9,6 +10,16 @@ $ git config --global alias.ci commit
 $ git config --global alias.st status
 ```
 现在，如果要输入 git commit 只需键入 git ci 即可。
+或者直接写入文件:
+```
+    [alias]  
+      st = status  
+      ci = commit  
+      br = branch  
+      co = checkout  
+      df = diff 
+```
+
 而随着 Git 使用的深入，会有很多经常要用到的命令，遇到这种情况，不妨建个别名提高效率。
 
 使用这种技术还可以创造出新的命令，比方说取消暂存文件时的输入比较繁琐，可以自己设置一下：
