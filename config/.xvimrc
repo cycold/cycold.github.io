@@ -1,0 +1,35 @@
+" 按键重映射
+" 将jj按键映射为esc (只在插入模式下有效,i表示insert)
+" 这里要特别注意:不要把任何的空格或者注释放在inoremap 命令后面要不进入normal后会光标随机乱跳
+" 参考:http://xvim.org/
+" inoremap jj <esc>
+" imap jj <Esc>
+i jj <Esc>
+"将大写B映射为^键(只在正常模式下有效n表示normal)
+nnoremap B ^
+"将大写$映射为^键(只在正常模式下有效)
+nnoremap E $
+"取消$ 按键(只在正常模式下有效)
+nnoremap $ <nop>
+"取消^ 按键(只在正常模式下有效)
+nnoremap ^ <nop>
+"设置在正常模式下,ff取代 ctrl + f 向下翻页
+nnoremap ff <C-f>
+"设置在正常模式下,bb取代 ctrl + b 向上翻页
+nnoremap bb <C-b>
+"设置不显示文件路径栏目
+set laststatus=0
+
+set incsearch
+
+" Case-insensitive searching.
+set ignorecase
+
+" But case-sensitive if expression contains a capital letter.
+set smartcase
+
+" Default to global substitutions on lines
+set gdefault
+
+" Use the system pasteboard
+set pasteboard
