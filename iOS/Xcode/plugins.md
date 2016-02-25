@@ -4,6 +4,9 @@ https://github.com/Alcatraz/Alcatraz
 vim插件: `xvim`
 http://xvim.org/
 
+模糊补齐`FuzzyAutocomplete`
+https://github.com/FuzzyAutocomplete/FuzzyAutocompletePlugin
+
 文件末尾插入虚拟空间(visual space): `SCXcodeEditorInset`
 https://github.com/stefanceriu/SCXcodeEditorInset
 

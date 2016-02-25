@@ -5,6 +5,9 @@
 " inoremap jj <esc>
 " imap jj <Esc>
 i jj <Esc>
+i kk <Esc>
+i ll <Esc>
+i hh <Esc>
 "将大写B映射为^键(只在正常模式下有效n表示normal)
 nnoremap B ^
 "将大写$映射为^键(只在正常模式下有效)
@@ -15,8 +18,8 @@ nnoremap $ <nop>
 nnoremap ^ <nop>
 "设置在正常模式下,ff取代 ctrl + f 向下翻页
 nnoremap ff <C-f>
-"设置在正常模式下,bb取代 ctrl + b 向上翻页
-nnoremap bb <C-b>
+"设置在正常模式下,mm取代 ctrl + b 向上翻页
+nnoremap mm <C-b>
 "设置不显示文件路径栏目
 set laststatus=0
 
@@ -33,3 +36,61 @@ set gdefault
 
 " Use the system pasteboard
 set pasteboard
+
+" save when esc
+ino <Esc> <Esc>:xcmenucmd Save<CR>
+
+" quick add ; at end of statement
+" 在插入模式inoremap, 在正常模式下nnoremap 输入;;会在行末插入;并且立即进入normal模式然后插入新行
+" inoremap <c-;> <ESC>A;<ESC>o
+inoremap ;; <ESC>A;<ESC>o
+nnoremap ;; A;<ESC>o
+
+"i oo <ESC>o
+"i dd <ESC>dd
+
+" Open Quickly
+" Note: slower then short key |cmd+shift+o|
+map ,o  :xccmd openQuickly<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""
+" Project
+""""""""""""""""""""""""""""""""""""""""""""""""""
+"map ,r  :run<CR>
+map ,bp  :xcmenucmd Build<CR>
+map ,cp  :xcmenucmd Clean<CR>
+
+
+" Map <space>b to toggle a breakpoint at the current line
+nmap <space>b :xccmd toggleBreakpointAtCurrentLine<CR>
+
+" Use <space>cm to toggle comments for the selection
+nmap <space>cm :xccmd commentAndUncommentCurrentLines<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""
+" assistant editor and jump between Frame
+"""""""""""""""""""""""""""""""""""""""""
+" show standard editor to close assistant editor
+map ,sa :xccmd changeToGeniusEditor<CR>
+" add new assistant editor
+"map ,aa :xccmd addAssistantEditor<CR>
+" del one assistant editor
+"map ,da :xccmd removeAssistantEditor<CR>
+
+
+" Better (un)indentation of code blocks
+vnoremap < <gv
+vnoremap > >gv
+
+" Show matching brackets briefly during inserting
+set sm
+
+
+nmap gp :pc<cr>
+nmap gn :nc<cr>
+nmap gi :ni<cr>
+nmap gI :pi<cr>
+nmap ,w :w<cr>
+nmap gf :xccmd jumpToDefinition<cr>

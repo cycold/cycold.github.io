@@ -44,3 +44,7 @@ NSBundle *rootBundle = [NSBundle mainBundle];
 // 在应用程序的根目录下搜索对应的xib(nib)文件 注意加载nib文件不需要后缀
 return [[rootBundle loadNibNamed:@"CYAppView" owner:nil options:nil] lastObject];
 ```
+
+5.设置label圆角效果
+`lblMsg.layer.cornerRadius = 7`; //设置四周圆角的半径
+`lblMsg.layer.masksToBounds` = YES; // 把多余的部分裁剪掉
