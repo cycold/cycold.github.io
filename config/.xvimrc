@@ -5,9 +5,11 @@
 " inoremap jj <esc>
 " imap jj <Esc>
 i jj <Esc>
-i kk <Esc>
-i ll <Esc>
-i hh <Esc>
+i ki <Esc>o
+i kk <Esc>A<Space>
+"i ll <Esc>
+"i hh <Esc>
+i PP <Esc>yypA
 "将大写B映射为^键(只在正常模式下有效n表示normal)
 nnoremap B ^
 "将大写$映射为^键(只在正常模式下有效)
@@ -20,10 +22,15 @@ nnoremap ^ <nop>
 nnoremap ff <C-f>
 "设置在正常模式下,mm取代 ctrl + b 向上翻页
 nnoremap mm <C-b>
+
 "设置不显示文件路径栏目
 set laststatus=0
-
 set incsearch
+set hlsearch
+
+"设置 搜索颜色 清除高亮使用:noh,或者:nohlsearch
+:highlight Search guibg=#FF0000
+:highlight Search guibg=blue
 
 " Case-insensitive searching.
 set ignorecase
@@ -43,8 +50,8 @@ ino <Esc> <Esc>:xcmenucmd Save<CR>
 " quick add ; at end of statement
 " 在插入模式inoremap, 在正常模式下nnoremap 输入;;会在行末插入;并且立即进入normal模式然后插入新行
 " inoremap <c-;> <ESC>A;<ESC>o
-inoremap ;; <ESC>A;<ESC>o
-nnoremap ;; A;<ESC>o
+" inoremap ;; <ESC>A;<ESC>o
+" nnoremap ;; A;<ESC>o
 
 "i oo <ESC>o
 "i dd <ESC>dd
@@ -94,3 +101,16 @@ nmap gi :ni<cr>
 nmap gI :pi<cr>
 nmap ,w :w<cr>
 nmap gf :xccmd jumpToDefinition<cr>
+
+"Disable vim automatic visual mode on mouse select
+"http://vim.wikia.com/wiki/Make_mouse_drag_not_select_text_or_go_into_visual_mode
+"https://github.com/jaredpar/VsVim/issues/1231
+"http://www.varesano.net/blog/fabio/disable%20vim%20automatic%20visual%20mode%20using%20mouse
+
+set mouse-=a
+"noremap <LeftDrag> <LeftMouse>
+noremap! <LeftDrag> <LeftMouse>
+noremap! <RightDrag> <RightMouse>
+"ioremap <LeftDrag> <LeftMouse>
+ioremap! <LeftDrag> <LeftMouse>
+ioremap! <RightDrag> <RightMouse>

@@ -19,3 +19,8 @@ iOS8.1 -> General -> Guides -> 马上着手开发iOS应用程序
 
 2.模拟器安装路径
 `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs`
+
+3.标签注释:
+`#paragm mark - ` 标注文档
+`#warning`  + 警告提示(这将人为的编译器添加警告提示)
+ 

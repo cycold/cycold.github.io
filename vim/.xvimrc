@@ -1,0 +1,94 @@
+" 按键重映射
+" 将jj按键映射为esc (只在插入模式下有效,i表示insert)
+" 这里要特别注意:不要把任何的空格或者注释放在inoremap 命令后面要不进入normal后会光标随机乱跳
+" 参考:http://xvim.org/
+
+" ----------按键重映射-----------------
+i jj <Esc>
+
+" 在插入模式下kk会在行尾部插入空格，这对跳出括号很有用
+i kk <Esc>A<Space>
+
+" 将大写B映射为^键(只在正常模式下有效n表示normal)
+nnoremap B ^
+
+" 将大写$映射为^键(只在正常模式下有效)
+nnoremap E $
+
+" 取消$ 按键(只在正常模式下有效)
+nnoremap $ <nop>
+
+" 取消^ 按键(只在正常模式下有效)
+nnoremap ^ <nop>
+
+" 设置在正常模式下,ff取代 ctrl + f 向下翻页
+nnoremap ff <C-f>
+
+" 设置在正常模式下,mm取代 ctrl + b 向上翻页
+nnoremap mm <C-b>
+
+
+" -----------Vim配置-----------------
+" 设置搜索高亮
+set incsearch
+set hlsearch
+
+" 搜索忽略大小写
+set ignorecase
+" But case-sensitive if expression contains a capital letter.（如果搜索字符含有大些字母，则区分大小写）
+set smartcase
+
+
+
+
+
+" -----------Xcode Vim插件特有配置-----------------
+"设置xcode vim plugin 不显示底部文件路径状态栏目
+set laststatus=0
+
+"设置xcode vim plugin 搜索颜色 清除高亮使用:noh
+"https://github.com/XVimProject/XVim/pull/797
+:highlight Search guibg=#FF0000
+:highlight Search guibg=blue
+
+" Default to global substitutions on lines
+set gdefault
+
+" Use the system pasteboard
+set pasteboard
+
+" Better (un)indentation of code blocks
+vnoremap < <gv
+vnoremap > >gv
+
+" Show matching brackets briefly during inserting
+set sm
+
+" save when esc 当Esc键被触发时，执行xcode vim plugin中的命令执行保存
+" :xccmd XVim can access Xcode's commands by using the :xccmd command. You can then set your preffered commands in your .xvimrc file.
+" http://xvim.org/
+ino <Esc> <Esc>:xcmenucmd Save<CR>
+
+" Map <space>b to toggle a breakpoint at the current line 设置在normal模式下空格加按键b可以开关调试断点
+nmap <space>b :xccmd toggleBreakpointAtCurrentLine<CR>
+
+" Use <space>cm to toggle comments for the selection 设置在normal模式下空格加按键c，按键m 可以触发注释
+nmap <space>cm :xccmd commentAndUncommentCurrentLines<CR>
+
+" Disable vim automatic visual mode on mouse select，在xvim中无效
+set mouse-=a
+
+nmap gp :pc<cr>
+nmap gn :nc<cr>
+nmap gi :ni<cr>
+nmap gI :pi<cr>
+nmap ,w :w<cr>
+
+
+
+
+
+
+
+
+

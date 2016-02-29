@@ -16,6 +16,12 @@ p: paragraph
 t: tag(think html)
 ```
 
+注意：VIM在搜索时，直接在命令模式下使用： 
+`/` + 要搜索的文本， 使用 `n`, `N` 正反向查找下一
+使用`:noh` 清除高亮
+或者可以使用`*`直接搜索光标所在的高亮位置
+注意搜索时前面不要加`:`,就只接使用`/text`
+
 #### 文件保存／退出
 - 保存退出  
     `:w` 保存不退出  
@@ -134,6 +140,7 @@ t: tag(think html)
     `L` 移动到屏幕底端的行   
     `3H` 移动到屏幕顶端往下的第3行  
     `3L` 移动到屏幕顶端往上的第3行  
+    `z` -> 重画屏幕，当前光标变成屏幕的第一行 (redraw current line at top of window)
 - 对字符的移动    
     `h` `j` `k` `l` 
     `3h` `3j` `3k` `3l` 
@@ -144,7 +151,7 @@ t: tag(think html)
 - 对行的修改 
     `c$` `C`  从光标处(包含光标处)删除到行末，然后进入插入模式(change)     
     `c0` 从光标处(不包含光标处)删除到行首，然后进入插入模式 
-    `S` `cc` 删除整行从头修改   
+    `S` `cc` 删除整行从头修改(注意,这里含有剪切的功能)   
     `s` 删除光标所在位置的字符，然后插入    
     `r` 替换光标处的字符，依然还是命令模式   
     `R` 从光标处开始替换多个字符，依然还是命令模式   
@@ -165,3 +172,91 @@ vim批量缩进(选中后 shift + > + > 或者 + < + < ):
 vim批量注释:
 `:20,30s/^/#/g`;
 `:20,30s/^#//g`;
+
+
+`%` 
+可以让光标从它当前所在的括号跳转到与它相匹配的括号上去, 对花括号和
+圆括号, 方括号都有效, 常用于手工检查括号是否匹对.
+
+`{` (左大括号) 跳到上一段的开头
+`}` (右大括号) 跳到下一段的的开头.
+
+`(` (左小括号) 移到这个句子的开头
+`)` (右小括号) 移到下一个句子的开头
+
+`[[` 跳往上一个函式
+`]]` 跳往下一个函式
+
+% 跳转到相配对的括号
+gD 跳转到局部变量的定义处
+'' 跳转到光标上次停靠的地方, 是两个', 而不是一个"
+
+在命令行模式下
+mx 设置书签,x只能是a-z的26个字母
+`x 跳转到书签处 (反引号)
+("`"是1左边的键)
+m char (MARK) 把这个地方标示成 char
+' char (quote character) 跳到被标为 char的那一行
+'' (按两次') 回到刚才的位置
+char 可以是小写的 a-z中的任一个 . 一个标记在除了下面的这两种情况
+外会一直存在
+1) 重覆使用相同的标示 char 
+2) 删掉了被标示的那一行
+
+">"增加缩进,"x>"表示增加以下x行的缩进
+"<"减少缩进,"x<"表示减少以下x行的缩进
+
+{ 跳到上一段的开头
+} 跳到下一段的的开头
+( 移到这个句子的开头
+) 移到下一个句子的开头
+
+[[ 跳转至上一个函数(要求代码块中'{'必须单独占一行)
+]] 跳转至下一个函数(要求代码块中'{'必须单独占一行)
+
+C-] 跳转至函数或变量定义处
+C-O 返回跳转前位置 
+C-T 同上 
+nC-T 返回跳转 n 次
+
+
+自动完成 (auto-completion)
+vim本身有自动完成功能（这里不是说ctag，而是vim内建的）
+CTRL-p -> 向后搜索自动完成 (search backward)
+CTRL-n -> 向前搜索自动完成 (search forward)
+CTRL-x+CTRL-o -> 代码自动补全 (code completion)o
+z -> 重画屏幕，当前光标变成屏幕的第一行 (redraw current line at top of window)
+重做/回复
+u -> undo
+CTRL-r -> redo
+
+
+编辑指令 (edit)
+a -> 在光表后插入 (append after cursor)
+A -> 在一行的结尾插入 (append at end of the line)
+i -> 在光标前插入 (insert before cursor)
+I -> 在第一个非空白字符前插入 (insert before first non-blank)
+o -> 光标下面插入一个新行 (open line below)
+O -> 光标上面插入一个新行 (open line above)
+x -> 删除光标下（或者之后）的东西 (delete under and after cursor)
+例如x就是删除当前光标下，3x就是删除光标下+光标后2位字符
+X -> 删除光标前的字符 (delete before cursor)
+d -> 删除 (delete)
+可以用dd删除一行，或者3dw删除3个词等等
+J -> 将下一行提到这行来 (join line)
+r -> 替换个字符 (replace characters)
+R -> 替换多个字符 (replace mode – continue replace)
+gr -> 不影响格局布置的替换 (replace without affecting layout)
+c -> 跟d键一样，但是删除后进入输入模式 (same as “d” but after delete, in insert mode)
+S -> 删除一行(好像dd一样）但是删除后进入输入模式 (same as “dd” but after delete, in insert mode)
+s -> 删除字符，跟(d)一样，但是删除后进入输入模式 (same as “d” but after delete, in insert mode)
+s4s 会删除4个字符，进入输入模式 (delete 4 char and put in insert mode)
+~ -> 更改大小写，大变小，小变大 (change case upper-> lower or lower->upper)
+gu -> 变成小写 (change to lower case)
+例如 guG 会把光标当前到文件结尾全部变成小写 (change lower case all the way to the end)
+gU -> 变成大写 (change to upper case)
+例如 gUG 会把光标当前到文件结尾全部变成大写 (change upper case all the way to the end)
+
+
+“*y -> 这个是把信息复制进系统的复制版（可以在其他程序中贴出来）(yank to OS buffer)
+“*p -> 从系统的剪贴板中读取信息贴入vim (paste from OS buffer to vim)
