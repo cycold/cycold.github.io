@@ -7,6 +7,25 @@ i jj <Esc>
 
 " 在插入模式下kk会在行尾部插入空格，这对跳出括号很有用
 i kk <Esc>A<Space>
+i ;; <Esc>}o
+i ki <Esc>{i
+i jh <Esc>I
+i {  <Esc>a{
+i }  <Esc>a}
+i [  <Esc>a[]<Esc>i
+i ]  <Esc>a]
+i (  <Esc>a()<Esc>i
+i )  <Esc>a)
+i "  <Esc>a""<Esc>i
+i =  <Esc>a=<Space>
+i +  <Esc>a+<Space>
+i -  <Esc>a-<Space>
+i *  <Esc>a*<Space>
+
+
+nnoremap [ {
+nnoremap ] }
+nnoremap ; A
 
 " 将大写B映射为^键(只在正常模式下有效n表示normal)
 nnoremap B ^
