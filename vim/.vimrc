@@ -10,7 +10,7 @@ i kk <Esc>A<Space>
 i ;; <Esc>}o
 i ki <Esc>{i
 i jh <Esc>I
-i {  <Esc>a{
+"i {  <Esc>a{
 i }  <Esc>a}
 i [  <Esc>a[]<Esc>i
 i ]  <Esc>a]
@@ -18,9 +18,12 @@ i (  <Esc>a()<Esc>i
 i )  <Esc>a)
 i "  <Esc>a""<Esc>i
 i =  <Esc>a=<Space>
-i +  <Esc>a+<Space>
-i -  <Esc>a-<Space>
-i *  <Esc>a*<Space>
+"i +  <Esc>a+<Space>
+"i -  <Esc>a-<Space>
+"i *  <Esc>a*<Space>
+i >  <Esc>a><Space>
+i <  <Esc>a<<Space>
+i :  <Esc>a:<Space>
 
 
 nnoremap [ {
