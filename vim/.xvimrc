@@ -8,28 +8,36 @@ i jj <Esc>
 
 " 在插入模式下kk会在行尾部插入空格，这对跳出括号很有用
 i kk <Esc>A<Space>
-i ;; <Esc>}o
-i ki <Esc>{i
-i jh <Esc>I
-"i {  <Esc>a{
-i }  <Esc>a}
+
+" 移动到下一个 }
+i ;; <Esc>/[{}]<CR>:noh<CR>a
+
+" 跳出所有括号
+i ki <Esc>}o
+" ------------------------------------
+
+i kp <Esc>yypA
+i ko <Esc>o
+i kj <Esc>{i
+i kh <Esc>I
 i [  <Esc>a[]<Esc>i
 i ]  <Esc>a]
-i (  <Esc>a()<Esc>i
-i )  <Esc>a)
 i "  <Esc>a""<Esc>i
-i =  <Esc>a=<Space>
-"i +  <Esc>a+<Space>
-"i -  <Esc>a-<Space>
-"i *  <Esc>a*<Space>
-i >  <Esc>a><Space>
-i <  <Esc>a<<Space>
 i :  <Esc>a:<Space>
 
+"i <TAB> <ESC>%%li
+"i <CR> <Esc>o<Esc>
 
 nnoremap [ {
 nnoremap ] }
 nnoremap ; A
+
+" Find next { or }
+":noremap ]] /[{}]<CR>:noh<CR>a
+
+" Find prev { or }
+":noremap [[ ?[{}]<CR>:noh<CR>a
+
 
 " 将大写B映射为^键(只在正常模式下有效n表示normal)
 nnoremap B ^
