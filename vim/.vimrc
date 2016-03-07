@@ -84,6 +84,16 @@ set nobackup                    "设置无自动备份文件 如index.php~
 set noswapfile                  "设置无交换文件
 :hi Cursor guibg=yellow         "设置光标颜色
 
+" Configuration file for vim
+set modelines=0                 " CVE-2007-2438
+set nocompatible                " Use Vim defaults instead of 100% vi compatibility
+set backspace=2                 " more powerful backspacing
+
+" Don't write backup file if vim is being called by "crontab -e"
+au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
+" Don't write backup file if vim is being called by "chpass"
+au BufWrite /private/etc/pw.* set nowritebackup nobackup
+
 
 
 

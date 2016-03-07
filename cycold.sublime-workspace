@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "iOS/Xcode/notes.md",
+			"file": "sublimeText/Default (OSX).sublime-keymap",
 			"settings":
 			{
-				"buffer_size": 588,
+				"buffer_size": 9789,
 				"line_ending": "Unix"
 			}
 		}
@@ -643,33 +643,52 @@
 	"expanded_folders":
 	[
 		"/Users/icewater/cycold.github.io",
-		"/Users/icewater/cycold.github.io/config/vim",
-		"/Users/icewater/cycold.github.io/iOS",
-		"/Users/icewater/cycold.github.io/iOS/Xcode",
-		"/Users/icewater/cycold.github.io/nodejs",
-		"/Users/icewater/cycold.github.io/nodejs/child_process.js",
-		"/Users/icewater/cycold.github.io/vim"
+		"/Users/icewater/cycold.github.io/sublimeText"
 	],
 	"file_history":
 	[
+		"/Users/icewater/cycold.github.io/vim/.vimrc",
+		"/Users/icewater/cycold.github.io/sublimeText/Default (OSX).sublime-keymap",
+		"/Users/icewater/cycold.github.io/sublimeText/Preference.sublime-settings",
+		"/Users/icewater/cycold.github.io/book.json",
+		"/Users/icewater/cycold.github.io/ruby/init.md",
+		"/Users/icewater/Documents/iOS/books/descover sketch app/Sketch (Blueprint)/Sketch/买家请阅读-忧伤的小硕.txt",
+		"/Users/icewater/cycold.github.io/other/install_bootstrap_jeklly_doc.md",
+		"/Users/icewater/cycold.github.io/iOS/Xcode/操作.md",
+		"/Users/icewater/cycold.github.io/iOS/Xcode/创建单元测试.png",
+		"/Users/icewater/cycold.github.io/mysql/php连接mysql问题.md",
+		"/Users/icewater/cycold.github.io/php/brew-install-php.md",
+		"/Users/icewater/cycold.github.io/php/使用brew安装php.md",
+		"/Users/icewater/cycold.github.io/mysql/export.md",
+		"/Users/icewater/cycold.github.io/mysql/mysql_grant_revoke.md",
+		"/Users/icewater/cycold.github.io/mysql/mysql数据库目录的所有者被修改了.md",
+		"/Users/icewater/Desktop/Snip20160305_1.png",
+		"/Users/icewater/cycold.github.io/mysql/mac_mysql_install.md",
+		"/Users/icewater/cycold.github.io/mysql/Mac下启动和停止Mysql服务.md",
+		"/Users/icewater/cycold.github.io/iOS/Xcode/notes.md",
+		"/Users/icewater/cycold.github.io/apache/mac_apache_config.md",
+		"/Users/icewater/cycold.github.io/php/t.md",
+		"/etc/apache2/httpd.conf",
+		"/Users/icewater/cycold.github.io/apache/禁止列出目录结构.md",
+		"/Users/icewater/cycold.github.io/php/php_basic_confi.md",
+		"/Users/icewater/cycold.github.io/php/ci/ci.basic.md",
+		"/Users/icewater/cycold.github.io/php/snippets/dump.php",
+		"/Users/icewater/Public/s/install/iwebshop.sql",
+		"/Users/icewater/cycold.github.io/mysql/shop.sql",
 		"/Users/icewater/.xvimrc",
 		"/Users/icewater/cycold.github.io/vim/common operation.md",
 		"/Users/icewater/cycold.github.io/vim/常用整理.md",
-		"/Users/icewater/cycold.github.io/book.json",
 		"/Users/icewater/cycold.github.io/vim/.xvimrc",
-		"/Users/icewater/cycold.github.io/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/vim/vim按键映射.md",
 		"/Users/icewater/cycold.github.io/nodejs/child_process.js/master.js",
 		"/Users/icewater/Desktop/FontAndColorThemes/Yozora-cycold.dvtcolortheme",
 		"/Users/icewater/cycold.github.io/index.html",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/颜色主题.md",
 		"/Users/icewater/cycold.github.io/.gitignore",
-		"/Users/icewater/cycold.github.io/iOS/Xcode/操作.md",
 		"/Users/icewater/cycold.github.io/config/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/config/.xvimrc",
 		"/Users/icewater/.vimrc",
 		"/Users/icewater/.ideavimrc",
-		"/Users/icewater/cycold.github.io/iOS/Xcode/notes.md",
 		"/Users/icewater/cycold.github.io/iOS/UI/Memo.md",
 		"/Users/icewater/cycold.github.io/iOS/OC/Memo.md",
 		"/Users/icewater/cycold.github.io/iOS/UI/notes.md",
@@ -745,7 +764,6 @@
 		"/Users/icewater/varicom/svn/m_varicom_im/trunk/package.json",
 		"/Users/icewater/cycold.github.io/git/常用命令.md",
 		"/Users/icewater/cycold.github.io/mongoDB/note.md",
-		"/Users/icewater/cycold.github.io/apache/mac_apache_config.md",
 		"/Users/icewater/cycold.github.io/nginx/installation.md",
 		"/Users/icewater/cycold.github.io/reg/使用正则表达式找出不包含特定字符串的条目.md",
 		"/Users/icewater/cycold.github.io/mongoDB/issues.md",
@@ -756,30 +774,7 @@
 		"/Users/icewater/cycold.github.io/mongoDB/MongoDB Shell.md",
 		"/Users/icewater/cycold.github.io/nodejs/npm command.md",
 		"/Users/icewater/cycold.github.io/nodejs/npm包安装失败处理.md",
-		"/Users/icewater/cycold.github.io/svn/init.md",
-		"/Users/icewater/cycold.github.io/secureCRT/common.md",
-		"/Users/icewater/cycold.github.io/mac/修改终端提示文字.md",
-		"/Users/icewater/cycold.github.io/mac/在Linux man命令中如何搜索关键字.md",
-		"/Users/icewater/cycold.github.io/redis/redis安装启动.md",
-		"/Users/icewater/cycold.github.io/redis/redis-dump/init.md",
-		"/Users/icewater/cycold.github.io/iterm2/init.md",
-		"/Users/icewater/cycold.github.io/secureCRT/367BFEFE-4136-42A6-BAE4-F6130064132B.png",
-		"/Users/icewater/cycold.github.io/secureCRT/34D89F2D-2BDE-4AE5-86FA-A8375EA9EB98.png",
-		"/Users/icewater/cycold.github.io/secureCRT/43166DAA-0F12-47B9-82C5-19413CC86FE8.png",
-		"/Users/icewater/cycold.github.io/secureCRT/9137EEBF-1C53-4790-B7C7-1CC733FE0035.png",
-		"/Users/icewater/cycold.github.io/secureCRT/9982ED0F-953E-4097-8DBC-2F588FE9C70C.png",
-		"/Users/icewater/varicom/projects-tools/api/systemMessage.js",
-		"/Users/icewater/varicom/projects-tools/api/_send_msg.js",
-		"/Users/icewater/varicom/projects-tools/api/_server.js",
-		"/Users/icewater/varicom/projects-tools/log/_repeat.md",
-		"/Users/icewater/varicom/projects-tools/getRedisInfo/_txt.md",
-		"/Users/icewater/varicom/projects-tools/log/_error.js",
-		"/Users/icewater/varicom/projects-tools/.gitignore",
-		"/Users/icewater/varicom/projects-tools/getRedisInfo/_getOnlineUsersBySid.js",
-		"/Users/icewater/varicom/projects-tools/getRedisInfo/_getOnlineUsers.js",
-		"/Users/icewater/varicom/projects-tools/log/_sessionClose.js",
-		"/Users/icewater/varicom/projects-tools/parseMsg/_getUnreadMsg.js",
-		"/Users/icewater/varicom/projects-tools/parseMsg/rpFile.js"
+		"/Users/icewater/cycold.github.io/svn/init.md"
 	],
 	"find":
 	{
@@ -790,6 +785,7 @@
 		"height": 99.0,
 		"where_history":
 		[
+			"/Users/icewater/cycold.github.io",
 			"/Users/icewater/Library/Application Support/Sublime Text 3",
 			"/Users/icewater/x-dev/java-basic"
 		]
@@ -799,6 +795,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ruby",
+			"No such file or directory",
+			"httpd-vh",
 			"line",
 			"font",
 			"fo n",
@@ -923,10 +922,7 @@
 			"bogus-nxdomain",
 			"alert",
 			"4",
-			"foo",
-			"alert",
-			"\");",
-			"cache"
+			"foo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -950,19 +946,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "iOS/Xcode/notes.md",
+					"file": "sublimeText/Default (OSX).sublime-keymap",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 588,
+						"buffer_size": 9789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								8680,
+								8680
 							]
 						],
 						"settings":
@@ -970,62 +966,67 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
 							],
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3959.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1134,12 +1135,15 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"vintage":
+		{
+		}
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 293.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
