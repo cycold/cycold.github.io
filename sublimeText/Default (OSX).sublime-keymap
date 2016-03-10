@@ -142,6 +142,11 @@
             { "key": "setting.is_widget", "operand": false }
         ]
     },
+    { "keys": ["k","o"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
     // 移动到行尾 (可以跳出括号，引号)
     { "keys": ["k","k"], "command": "move_to", "args": {"to": "eol", "extend": false, "forward": true},
         "context":
@@ -163,12 +168,22 @@
             { "key": "setting.is_widget", "operand": false }
         ]
     },
+    { "keys": ["k","h"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
     // 括号之间移动
-    { "keys": ["k","i"], "command": "move_to", "args": {"to": "brackets", "forward": true},
+    { "keys": ["k","j"], "command": "move_to", "args": {"to": "brackets", "forward": true},
         "context":
         [
             { "key": "setting.command_mode", "operand": false },
             { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","j"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
     //向前移动一个单词 (可以跳出括号，引号)
@@ -177,6 +192,24 @@
         [
             { "key": "setting.command_mode", "operand": false },
             { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","l"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    //向下移动一行 (可以跳出括号，引号)
+    { "keys": ["k","i"], "command": "move", "args": {"by": "lines", "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","i"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
         ]
     },
     //输入：自动插入一个空格

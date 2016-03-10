@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "sublimeText/Default (OSX).sublime-keymap",
+			"file": "vim/common operation.md",
 			"settings":
 			{
-				"buffer_size": 9789,
+				"buffer_size": 7003,
 				"line_ending": "Unix"
 			}
 		}
@@ -642,13 +642,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/icewater/cycold.github.io",
-		"/Users/icewater/cycold.github.io/sublimeText"
+		"/Users/icewater/cycold.github.io"
 	],
 	"file_history":
 	[
-		"/Users/icewater/cycold.github.io/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/sublimeText/Default (OSX).sublime-keymap",
+		"/Users/icewater/cycold.github.io/.gitignore",
+		"/Users/icewater/cycold.github.io/sublimeText/sublimeText3-note.md",
+		"/Users/icewater/cycold.github.io/sublimeText/Sublime Text.icns",
+		"/Users/icewater/cycold.github.io/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/sublimeText/Preference.sublime-settings",
 		"/Users/icewater/cycold.github.io/book.json",
 		"/Users/icewater/cycold.github.io/ruby/init.md",
@@ -684,7 +686,6 @@
 		"/Users/icewater/Desktop/FontAndColorThemes/Yozora-cycold.dvtcolortheme",
 		"/Users/icewater/cycold.github.io/index.html",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/颜色主题.md",
-		"/Users/icewater/cycold.github.io/.gitignore",
 		"/Users/icewater/cycold.github.io/config/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/config/.xvimrc",
 		"/Users/icewater/.vimrc",
@@ -772,9 +773,7 @@
 		"/Users/icewater/cycold.github.io/mac/Mac常用终端命令.md",
 		"/Users/icewater/cycold.github.io/mongoDB/Mac installation.md",
 		"/Users/icewater/cycold.github.io/mongoDB/MongoDB Shell.md",
-		"/Users/icewater/cycold.github.io/nodejs/npm command.md",
-		"/Users/icewater/cycold.github.io/nodejs/npm包安装失败处理.md",
-		"/Users/icewater/cycold.github.io/svn/init.md"
+		"/Users/icewater/cycold.github.io/nodejs/npm command.md"
 	],
 	"find":
 	{
@@ -946,19 +945,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "sublimeText/Default (OSX).sublime-keymap",
+					"file": "vim/common operation.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9789,
+						"buffer_size": 7003,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8680,
-								8680
+								133,
+								133
 							]
 						],
 						"settings":
@@ -966,21 +965,31 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -991,42 +1000,42 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
 							],
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 10
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 3959.0,
+						"translation.y": 857.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
