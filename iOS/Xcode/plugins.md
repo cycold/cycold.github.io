@@ -25,6 +25,15 @@ https://github.com/qfish/XAlign
 显示文件变化`gitDiff`
 https://github.com/johnno1962/GitDiff
 
+比其自带的文档浏览器要好`Dash`
+https://github.com/omz/Dash-Plugin-for-Xcode
+
+颜色
+https://github.com/omz/ColorSense-for-Xcode
+https://github.com/NorthernRealities/ColorSenseRainbow
+
+模仿sublimeText的miniMap
+https://github.com/stefanceriu/SCXcodeMiniMap
 
 
 

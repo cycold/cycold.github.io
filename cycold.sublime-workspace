@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "vim/common operation.md",
+			"file": "iterm2/init.md",
 			"settings":
 			{
-				"buffer_size": 7003,
+				"buffer_size": 367,
 				"line_ending": "Unix"
 			}
 		}
@@ -642,10 +642,16 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/icewater/cycold.github.io"
+		"/Users/icewater/cycold.github.io",
+		"/Users/icewater/cycold.github.io/iterm2"
 	],
 	"file_history":
 	[
+		"/Users/icewater/cycold.github.io/iterm2/6C9FE9F0-8666-43ED-8526-B89EFBE4CC2C.png",
+		"/Users/icewater/cycold.github.io/iterm2/init.md",
+		"/Users/icewater/cycold.github.io/index.html",
+		"/Users/icewater/cycold.github.io/mac/common soft for mac.md",
+		"/Users/icewater/cycold.github.io/vim/common operation.md",
 		"/Users/icewater/cycold.github.io/sublimeText/Default (OSX).sublime-keymap",
 		"/Users/icewater/cycold.github.io/.gitignore",
 		"/Users/icewater/cycold.github.io/sublimeText/sublimeText3-note.md",
@@ -678,13 +684,11 @@
 		"/Users/icewater/Public/s/install/iwebshop.sql",
 		"/Users/icewater/cycold.github.io/mysql/shop.sql",
 		"/Users/icewater/.xvimrc",
-		"/Users/icewater/cycold.github.io/vim/common operation.md",
 		"/Users/icewater/cycold.github.io/vim/常用整理.md",
 		"/Users/icewater/cycold.github.io/vim/.xvimrc",
 		"/Users/icewater/cycold.github.io/vim/vim按键映射.md",
 		"/Users/icewater/cycold.github.io/nodejs/child_process.js/master.js",
 		"/Users/icewater/Desktop/FontAndColorThemes/Yozora-cycold.dvtcolortheme",
-		"/Users/icewater/cycold.github.io/index.html",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/颜色主题.md",
 		"/Users/icewater/cycold.github.io/config/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/config/.xvimrc",
@@ -770,10 +774,7 @@
 		"/Users/icewater/cycold.github.io/mongoDB/issues.md",
 		"/Users/icewater/cycold.github.io/nodejs/Fixing npm permissions.md",
 		"/Users/icewater/cycold.github.io/mongoDB/start.md",
-		"/Users/icewater/cycold.github.io/mac/Mac常用终端命令.md",
-		"/Users/icewater/cycold.github.io/mongoDB/Mac installation.md",
-		"/Users/icewater/cycold.github.io/mongoDB/MongoDB Shell.md",
-		"/Users/icewater/cycold.github.io/nodejs/npm command.md"
+		"/Users/icewater/cycold.github.io/mac/Mac常用终端命令.md"
 	],
 	"find":
 	{
@@ -945,19 +946,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "vim/common operation.md",
+					"file": "iterm2/init.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7003,
+						"buffer_size": 367,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								133,
-								133
+								282,
+								282
 							]
 						],
 						"settings":
@@ -1018,8 +1019,6 @@
 							],
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"action": null,
@@ -1035,7 +1034,7 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 857.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1152,7 +1151,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 293.0,
+	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
