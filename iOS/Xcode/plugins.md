@@ -12,6 +12,8 @@ https://github.com/stefanceriu/SCXcodeEditorInset
 
 高亮文本`AutoHighlightSymbol`
 https://github.com/chiahsien/AutoHighlightSymbol
+`HighlightSelectedString` more better
+https://github.com/keepyounger/HighlightSelectedString
 
 图片路径补全:`KSImageNamed-Xcode`
 https://github.com/ksuther/KSImageNamed-Xcode
@@ -34,6 +36,9 @@ https://github.com/NorthernRealities/ColorSenseRainbow
 
 模仿sublimeText的miniMap
 https://github.com/stefanceriu/SCXcodeMiniMap
+
+注释 /**/风格
+https://github.com/flexih/Xcode-CComment
 
 
 
