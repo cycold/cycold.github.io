@@ -520,58 +520,34 @@
 	"buffers":
 	[
 		{
-			"file": "iOS/Xcode/操作.md",
+			"file": "php/使用brew安装php.md",
 			"settings":
 			{
-				"buffer_size": 930,
+				"buffer_size": 257,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "iOS/Xcode/plugins.md",
+			"file": "php/brew-install-php.md",
 			"settings":
 			{
-				"buffer_size": 978,
+				"buffer_size": 2335,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/什么是高阶函数.md",
+			"file": "secureCRT/common.md",
 			"settings":
 			{
-				"buffer_size": 197,
+				"buffer_size": 912,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "js/传参.js",
+			"file": "sublimeText/sublimeText3-note.md",
 			"settings":
 			{
-				"buffer_size": 667,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/使用var声明变量和直接赋值的区别.md",
-			"settings":
-			{
-				"buffer_size": 2883,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/关于闭包的垃圾回收.md",
-			"settings":
-			{
-				"buffer_size": 385,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "dnsmasq/dnsmasq.md",
-			"settings":
-			{
-				"buffer_size": 2422,
+				"buffer_size": 1073,
 				"line_ending": "Unix"
 			}
 		}
@@ -695,20 +671,62 @@
 	"expanded_folders":
 	[
 		"/Users/icewater/cycold.github.io",
-		"/Users/icewater/cycold.github.io/dnsmasq",
-		"/Users/icewater/cycold.github.io/iOS/Xcode",
-		"/Users/icewater/cycold.github.io/js/img"
+		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis",
+		"/Users/icewater/cycold.github.io/emoji/node_modules",
+		"/Users/icewater/cycold.github.io/redis/redis-dump",
+		"/Users/icewater/cycold.github.io/sublimeText"
 	],
 	"file_history":
 	[
+		"/Users/icewater/cycold.github.io/sublimeText/Sublime Text.icns",
+		"/Users/icewater/cycold.github.io/q/01.js",
+		"/Users/icewater/cycold.github.io/q/q0.js",
+		"/Users/icewater/cycold.github.io/ruby/init.md",
+		"/Users/icewater/cycold.github.io/secureCRT/crack.md",
+		"/Users/icewater/cycold.github.io/secureCRT/34D89F2D-2BDE-4AE5-86FA-A8375EA9EB98.png",
+		"/Users/icewater/cycold.github.io/secureCRT/367BFEFE-4136-42A6-BAE4-F6130064132B.png",
+		"/Users/icewater/cycold.github.io/secureCRT/9137EEBF-1C53-4790-B7C7-1CC733FE0035.png",
+		"/Users/icewater/cycold.github.io/ssh/ssh.md",
+		"/Users/icewater/cycold.github.io/ssh/iterm2免输入密码.md",
+		"/Users/icewater/cycold.github.io/php/php中对象继承.md",
+		"/Users/icewater/cycold.github.io/php/php与js区别.md",
+		"/Users/icewater/cycold.github.io/php/ci/ci.basic.md",
+		"/Users/icewater/cycold.github.io/php/t.md",
+		"/Users/icewater/cycold.github.io/linux/权限管理.md",
+		"/Users/icewater/cycold.github.io/pptp/init.md",
+		"/Users/icewater/cycold.github.io/pptp/mome.txt",
+		"/Users/icewater/cycold.github.io/pptp/chap-secrets.txt",
+		"/Users/icewater/cycold.github.io/webpack/note.md",
+		"/Users/icewater/cycold.github.io/redis/redis-dump/init.md",
+		"/Users/icewater/cycold.github.io/dnsmasq/dnsmasq.md",
+		"/Users/icewater/cycold.github.io/mac/Mac常用终端命令.md",
+		"/Users/icewater/cycold.github.io/linux/ftp.md",
+		"/Users/icewater/cycold.github.io/mac/显示隐藏文件.md",
+		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis/_test.js",
+		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis/index.js",
+		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis/_special_emojis.json",
+		"/Users/icewater/cycold.github.io/iOS/Xcode/操作.md",
+		"/Users/icewater/cycold.github.io/svn/init.md",
+		"/Users/icewater/cycold.github.io/nginx/mimetype.md",
+		"/Users/icewater/cycold.github.io/ps/init.md",
+		"/Users/icewater/cycold.github.io/vim/vim按键映射.md",
+		"/Users/icewater/cycold.github.io/vim/常用整理.md",
+		"/Users/icewater/cycold.github.io/nginx/installation.md",
+		"/Users/icewater/cycold.github.io/nginx/config.md",
+		"/usr/local/etc/nginx/nginx.conf",
+		"/Users/icewater/cycold.github.io/book.json",
+		"/Users/icewater/cycold.github.io/iOS/Xcode/plugins.md",
+		"/Users/icewater/cycold.github.io/js/什么是高阶函数.md",
+		"/Users/icewater/cycold.github.io/js/传参.js",
 		"/Users/icewater/cycold.github.io/js/使用var声明变量和直接赋值的区别.md",
+		"/Users/icewater/cycold.github.io/js/关于闭包的垃圾回收.md",
+		"/Users/icewater/cycold.github.io/config/.xvimrc",
+		"/Users/icewater/cycold.github.io/config/vim/.vimrc",
+		"/Users/icewater/cycold.github.io/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/notes.md",
 		"/Users/icewater/cycold.github.io/README.md",
-		"/Users/icewater/cycold.github.io/iOS/Xcode/plugins.md",
-		"/Users/icewater/cycold.github.io/js/传参.js",
 		"/Users/icewater/cycold.github.io/mac/common soft for mac.md",
 		"/Users/icewater/cycold.github.io/iterm2/init.md",
-		"/Users/icewater/cycold.github.io/vim/.vimrc",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/Snip20160310_42.png",
 		"/Users/icewater/cycold.github.io/mac/Snip20160310_42.png",
 		"/Users/icewater/cycold.github.io/vim/.xvimrc",
@@ -718,13 +736,9 @@
 		"/Users/icewater/cycold.github.io/sublimeText/Default (OSX).sublime-keymap",
 		"/Users/icewater/cycold.github.io/.gitignore",
 		"/Users/icewater/cycold.github.io/sublimeText/sublimeText3-note.md",
-		"/Users/icewater/cycold.github.io/sublimeText/Sublime Text.icns",
 		"/Users/icewater/cycold.github.io/sublimeText/Preference.sublime-settings",
-		"/Users/icewater/cycold.github.io/book.json",
-		"/Users/icewater/cycold.github.io/ruby/init.md",
 		"/Users/icewater/Documents/iOS/books/descover sketch app/Sketch (Blueprint)/Sketch/买家请阅读-忧伤的小硕.txt",
 		"/Users/icewater/cycold.github.io/other/install_bootstrap_jeklly_doc.md",
-		"/Users/icewater/cycold.github.io/iOS/Xcode/操作.md",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/创建单元测试.png",
 		"/Users/icewater/cycold.github.io/mysql/php连接mysql问题.md",
 		"/Users/icewater/cycold.github.io/php/brew-install-php.md",
@@ -736,22 +750,16 @@
 		"/Users/icewater/cycold.github.io/mysql/mac_mysql_install.md",
 		"/Users/icewater/cycold.github.io/mysql/Mac下启动和停止Mysql服务.md",
 		"/Users/icewater/cycold.github.io/apache/mac_apache_config.md",
-		"/Users/icewater/cycold.github.io/php/t.md",
 		"/etc/apache2/httpd.conf",
 		"/Users/icewater/cycold.github.io/apache/禁止列出目录结构.md",
 		"/Users/icewater/cycold.github.io/php/php_basic_confi.md",
-		"/Users/icewater/cycold.github.io/php/ci/ci.basic.md",
 		"/Users/icewater/cycold.github.io/php/snippets/dump.php",
 		"/Users/icewater/Public/s/install/iwebshop.sql",
 		"/Users/icewater/cycold.github.io/mysql/shop.sql",
 		"/Users/icewater/.xvimrc",
-		"/Users/icewater/cycold.github.io/vim/常用整理.md",
-		"/Users/icewater/cycold.github.io/vim/vim按键映射.md",
 		"/Users/icewater/cycold.github.io/nodejs/child_process.js/master.js",
 		"/Users/icewater/Desktop/FontAndColorThemes/Yozora-cycold.dvtcolortheme",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/颜色主题.md",
-		"/Users/icewater/cycold.github.io/config/vim/.vimrc",
-		"/Users/icewater/cycold.github.io/config/.xvimrc",
 		"/Users/icewater/.vimrc",
 		"/Users/icewater/.ideavimrc",
 		"/Users/icewater/cycold.github.io/iOS/UI/Memo.md",
@@ -772,7 +780,6 @@
 		"/Users/icewater/cycold.github.io/iOS/OC/无法连线.png",
 		"/Users/icewater/cycold.github.io/iOS/OC/memo.md",
 		"/Users/icewater/cycold.github.io/Xcode/操作.md",
-		"/Users/icewater/cycold.github.io/linux/权限管理.md",
 		"/Users/icewater/cycold.github.io/c/字符串.md",
 		"/Users/icewater/cycold.github.io/iOS/OC/string",
 		"/Users/icewater/cycold.github.io/c/头文件.md",
@@ -790,7 +797,6 @@
 		"/Users/icewater/cycold.github.io/git/git命令别名.md",
 		"/Users/icewater/cycold.github.io/c/动态内存.md",
 		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/icewater/cycold.github.io/mac/显示隐藏文件.md",
 		"/Users/icewater/cycold.github.io/config/my-ublock-static-filters_10-17-2015,_9-23-37_AM.txt",
 		"/Users/icewater/cycold.github.io/c/内部函数与外部函数.md",
 		"/Users/icewater/cycold.github.io/c/typedef.md",
@@ -799,36 +805,7 @@
 		"/Users/icewater/cycold.github.io/c/struct.md",
 		"/Users/icewater/cycold.github.io/c/init.md",
 		"/Users/icewater/cycold.github.io/c/函数.md",
-		"/Users/icewater/cycold.github.io/c/variable.md",
-		"/Users/icewater/cycold.github.io/c/字符串2.md",
-		"/Users/icewater/cycold.github.io/c/复合类型.md",
-		"/Users/icewater/cycold.github.io/c/复合类型2.md",
-		"/Users/icewater/cycold.github.io/c/进制.md",
-		"/Users/icewater/Desktop/第2.1节 变量、运算符和表达式1.mp4",
-		"/Users/icewater/cycold.github.io/git/标签.md",
-		"/Users/icewater/cycold.github.io/emoji/01.js",
-		"/Users/icewater/cycold.github.io/emoji/02.js",
-		"/Users/icewater/cycold.github.io/emoji/03.js",
-		"/Users/icewater/cycold.github.io/emoji/parse.js",
-		"/Users/icewater/cycold.github.io/emoji/parse2.js",
-		"/Users/icewater/cycold.github.io/emoji/parse3.js",
-		"/Users/icewater/cycold.github.io/emoji/t.js",
-		"/Users/icewater/cycold.github.io/emoji/unicode.js",
-		"/usr/local/etc/nginx/nginx.conf",
-		"/usr/local/etc/nginx/mime.types",
-		"/Users/icewater/cycold.github.io/git/远程仓库使用.md",
-		"/Users/icewater/cycold.github.io/git/git_branch.md",
-		"/Users/icewater/cycold.github.io/git/common command.md",
-		"/Users/icewater/cycold.github.io/nginx/mimetype.md",
-		"/Users/icewater/cycold.github.io/js/类型化数组.md",
-		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis/_special_emojis.json",
-		"/Users/icewater/cycold.github.io/dnsmasq/dnsmasq.md",
-		"/Users/icewater/cycold.github.io/webpack/note.md",
-		"/Users/icewater/cycold.github.io/nodejs/npm版本.md",
-		"/Users/icewater/varicom/svn/m_varicom_im/trunk/package.json",
-		"/Users/icewater/cycold.github.io/git/常用命令.md",
-		"/Users/icewater/cycold.github.io/mongoDB/note.md",
-		"/Users/icewater/cycold.github.io/nginx/installation.md"
+		"/Users/icewater/cycold.github.io/c/variable.md"
 	],
 	"find":
 	{
@@ -995,24 +972,24 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "iOS/Xcode/操作.md",
+					"file": "php/使用brew安装php.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 930,
+						"buffer_size": 257,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
+								257,
+								257
 							]
 						],
 						"settings":
@@ -1020,105 +997,41 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 17
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 242.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "iOS/Xcode/plugins.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 978,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								959,
-								959
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -1129,150 +1042,13 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
+								"bh_single_quote_content"
 							],
-							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"_vintageous_non_interactive": false,
-								"_vintageous_processing_notation": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 25
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 534.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/什么是高阶函数.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								183,
-								183
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
-							"origin_encoding": "UTF-8",
+							"origin_encoding": "ASCII",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
 							"vintage":
 							{
@@ -1286,104 +1062,6 @@
 								"register": "\"",
 								"sequence": "",
 								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/传参.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 667,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								95,
-								95
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 19
 							}
 						},
 						"translation.x": 0.0,
@@ -1394,20 +1072,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "js/使用var声明变量和直接赋值的区别.md",
+					"buffer": 1,
+					"file": "php/brew-install-php.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2883,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1771,
-								1771
+								454,
+								454
 							]
 						],
 						"settings":
@@ -1415,41 +1093,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1460,11 +1103,46 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
@@ -1481,31 +1159,31 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 0
+								"xpos": 454
 							}
 						},
-						"translation.x": -0.0,
-						"translation.y": 795.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "js/关于闭包的垃圾回收.md",
+					"buffer": 2,
+					"file": "secureCRT/common.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 385,
+						"buffer_size": 912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								369,
-								369
+								304,
+								304
 							]
 						],
 						"settings":
@@ -1513,41 +1191,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1558,16 +1201,49 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
 							"vintage":
 							{
 								"action": null,
@@ -1579,10 +1255,10 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
-								"xpos": 0
+								"xpos": 9
 							}
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1590,20 +1266,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "dnsmasq/dnsmasq.md",
+					"buffer": 3,
+					"file": "sublimeText/sublimeText3-note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2422,
+						"buffer_size": 1073,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1426,
-								1426
+								892,
+								946
 							]
 						],
 						"settings":
@@ -1611,41 +1287,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1656,11 +1297,46 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
@@ -1679,7 +1355,7 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 920.0,
+						"translation.y": 472.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1798,7 +1474,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 213.0,
+	"side_bar_width": 276.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
