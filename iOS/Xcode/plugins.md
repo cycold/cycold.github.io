@@ -1,3 +1,7 @@
+升级xcode 插件失效解决：
+https://github.com/inket/update_xcode_plugins
+
+
 插件管理: `Alcatraz`
 https://github.com/Alcatraz/Alcatraz
 

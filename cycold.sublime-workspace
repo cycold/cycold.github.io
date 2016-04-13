@@ -520,34 +520,26 @@
 	"buffers":
 	[
 		{
-			"file": "php/使用brew安装php.md",
+			"file": "webpack/note.md",
 			"settings":
 			{
-				"buffer_size": 257,
+				"buffer_size": 613,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php/brew-install-php.md",
+			"file": "webDev/init.md",
 			"settings":
 			{
-				"buffer_size": 2335,
+				"buffer_size": 902,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "secureCRT/common.md",
+			"file": "chrome/init.js",
 			"settings":
 			{
-				"buffer_size": 912,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sublimeText/sublimeText3-note.md",
-			"settings":
-			{
-				"buffer_size": 1073,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -670,14 +662,29 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/icewater/cycold.github.io",
-		"/Users/icewater/cycold.github.io/emoji/filterSpecialEmojis",
-		"/Users/icewater/cycold.github.io/emoji/node_modules",
-		"/Users/icewater/cycold.github.io/redis/redis-dump",
-		"/Users/icewater/cycold.github.io/sublimeText"
+		"/Users/icewater/Documents/cycold.github.io",
+		"/Users/icewater/Documents/cycold.github.io/chrome",
+		"/Users/icewater/Documents/cycold.github.io/iOS/Xcode"
 	],
 	"file_history":
 	[
+		"/Users/icewater/Documents/cycold.github.io/chrome/filter.js",
+		"/Users/icewater/Documents/cycold.github.io/vim/common operation.md",
+		"/Users/icewater/Documents/cycold.github.io/nodejs/npm command.md",
+		"/Users/icewater/Documents/cycold.github.io/iOS/Xcode/notes.md",
+		"/Users/icewater/Documents/cycold.github.io/iOS/Xcode/plugins.md",
+		"/Users/icewater/Documents/cycold.github.io/index.html",
+		"/Users/icewater/Documents/cycold.github.io/nginx/nginx.conf",
+		"/Users/icewater/Documents/cycold.github.io/nginx/config.md",
+		"/Users/icewater/Documents/cycold.github.io/vim/常用整理.md",
+		"/Users/icewater/Documents/cycold.github.io/nginx/init.md",
+		"/usr/local/etc/nginx/nginx.conf",
+		"/Users/icewater/Documents/cycold.github.io/nginx/mimetype.md",
+		"/Users/icewater/Documents/cycold.github.io/nginx/installation.md",
+		"/Users/icewater/Documents/cycold.github.io/php/使用brew安装php.md",
+		"/Users/icewater/Documents/cycold.github.io/php/brew-install-php.md",
+		"/Users/icewater/Documents/cycold.github.io/secureCRT/common.md",
+		"/Users/icewater/Documents/cycold.github.io/sublimeText/sublimeText3-note.md",
 		"/Users/icewater/cycold.github.io/sublimeText/Sublime Text.icns",
 		"/Users/icewater/cycold.github.io/q/01.js",
 		"/Users/icewater/cycold.github.io/q/q0.js",
@@ -713,7 +720,6 @@
 		"/Users/icewater/cycold.github.io/vim/常用整理.md",
 		"/Users/icewater/cycold.github.io/nginx/installation.md",
 		"/Users/icewater/cycold.github.io/nginx/config.md",
-		"/usr/local/etc/nginx/nginx.conf",
 		"/Users/icewater/cycold.github.io/book.json",
 		"/Users/icewater/cycold.github.io/iOS/Xcode/plugins.md",
 		"/Users/icewater/cycold.github.io/js/什么是高阶函数.md",
@@ -789,23 +795,7 @@
 		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/myTheme/i-ocean-light.tmTheme",
 		"/Users/icewater/.gitconfig",
 		"/Users/icewater/cycold.github.io/mac/MAC OS下ZIP压缩包解压时候中文乱码的解决办法.md",
-		"/Users/icewater/cycold.github.io/config/.bash_profile",
-		"/Users/icewater/.bash_profile",
-		"/Users/icewater/cycold.github.io/config/.zshrc",
-		"/Users/icewater/cycold.github.io/git/git_basci.md",
-		"/Users/icewater/cycold.github.io/git/git-手册url.md",
-		"/Users/icewater/cycold.github.io/git/git命令别名.md",
-		"/Users/icewater/cycold.github.io/c/动态内存.md",
-		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/icewater/cycold.github.io/config/my-ublock-static-filters_10-17-2015,_9-23-37_AM.txt",
-		"/Users/icewater/cycold.github.io/c/内部函数与外部函数.md",
-		"/Users/icewater/cycold.github.io/c/typedef.md",
-		"/Users/icewater/cycold.github.io/c/编译步骤.md",
-		"/Users/icewater/cycold.github.io/c/静态内存与动态内存.md",
-		"/Users/icewater/cycold.github.io/c/struct.md",
-		"/Users/icewater/cycold.github.io/c/init.md",
-		"/Users/icewater/cycold.github.io/c/函数.md",
-		"/Users/icewater/cycold.github.io/c/variable.md"
+		"/Users/icewater/cycold.github.io/config/.bash_profile"
 	],
 	"find":
 	{
@@ -972,24 +962,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "php/使用brew安装php.md",
+					"file": "webpack/note.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 257,
+						"buffer_size": 613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								257,
-								257
+								161,
+								161
 							]
 						],
 						"settings":
@@ -997,170 +987,59 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
-							],
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "php/brew-install-php.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2335,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								454,
-								454
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 454
-							}
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1170,93 +1049,80 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "secureCRT/common.md",
+					"buffer": 1,
+					"file": "webDev/init.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 912,
+						"buffer_size": 902,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								304,
-								304
+								546,
+								546
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"_anf_new": "",
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 9
-							}
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1266,96 +1132,83 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "sublimeText/sublimeText3-note.md",
+					"buffer": 2,
+					"file": "chrome/init.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1073,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								892,
-								946
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"_anf_new": "",
 							"bh_regions":
 							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content"
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 472.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
