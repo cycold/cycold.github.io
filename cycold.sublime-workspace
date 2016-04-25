@@ -520,26 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "webpack/note.md",
+			"file": "ps/init.md",
 			"settings":
 			{
-				"buffer_size": 613,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webDev/init.md",
-			"settings":
-			{
-				"buffer_size": 902,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "chrome/init.js",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 173,
 				"line_ending": "Unix"
 			}
 		}
@@ -663,12 +647,33 @@
 	"expanded_folders":
 	[
 		"/Users/icewater/Documents/cycold.github.io",
-		"/Users/icewater/Documents/cycold.github.io/chrome",
-		"/Users/icewater/Documents/cycold.github.io/iOS/Xcode"
+		"/Users/icewater/Documents/cycold.github.io/ps"
 	],
 	"file_history":
 	[
+		"/Users/icewater/Documents/cycold.github.io/babel/init.md",
+		"/Users/icewater/Documents/cycold.github.io/webDev/init.md",
+		"/Users/icewater/Documents/cycold.github.io/emoji/parse2.js",
+		"/Users/icewater/Documents/cycold.github.io/emoji/parse.js",
+		"/Users/icewater/Documents/cycold.github.io/js/转为html字符实体.js",
+		"/Users/icewater/Developer/varicom/projects-tools/parseMsg/rpFile.js",
+		"/Users/icewater/Developer/varicom/projects-tools/parseMsg/_special_emojis.json",
+		"/Users/icewater/Developer/varicom/projects-tools/log/_error.js",
+		"/Users/icewater/Developer/varicom/projects-tools/log/_00.js",
+		"/Users/icewater/Documents/cycold.github.io/pomelo/start.js",
+		"/Users/icewater/Documents/cycold.github.io/emoji/unicode.js",
+		"/Users/icewater/Documents/cycold.github.io/emoji/t.js",
+		"/Users/icewater/Documents/cycold.github.io/emoji/_error.js",
+		"/Users/icewater/Documents/cycold.github.io/emoji/02.js",
+		"/Users/icewater/Documents/cycold.github.io/curl/common.md",
+		"/Users/icewater/Documents/cycold.github.io/babel/my.md",
+		"/Users/icewater/Documents/cycold.github.io/js/strict_mode.md",
+		"/Users/icewater/Documents/cycold.github.io/curl/init.md",
+		"/Users/icewater/Documents/cycold.github.io/book.json",
+		"/Users/icewater/Documents/cycold.github.io/chrome/init.md",
 		"/Users/icewater/Documents/cycold.github.io/chrome/filter.js",
+		"/Users/icewater/Documents/cycold.github.io/webpack/note.md",
+		"/Users/icewater/Documents/cycold.github.io/chrome/init.js",
 		"/Users/icewater/Documents/cycold.github.io/vim/common operation.md",
 		"/Users/icewater/Documents/cycold.github.io/nodejs/npm command.md",
 		"/Users/icewater/Documents/cycold.github.io/iOS/Xcode/notes.md",
@@ -773,29 +778,7 @@
 		"/Users/icewater/cycold.github.io/iOS/UI/notes.md",
 		"/Users/icewater/cycold.github.io/vim/notes_from_webblog",
 		"/Users/icewater/cycold.github.io/vim/from_web_blog.md",
-		"/Users/icewater/cycold.github.io/atom/init.md",
-		"/Users/icewater/cycold.github.io/iOS/OC/kvc-simple.md",
-		"/Users/icewater/cycold.github.io/iOS/UI/九宫格-xib-字典转模型.md",
-		"/Users/icewater/cycold.github.io/iOS/UI/UITableView.md",
-		"/Users/icewater/cycold.github.io/iOS/iOS学习路线图.jpg",
-		"/Users/icewater/cycold.github.io/iOS/UI/snippets.md",
-		"/Users/icewater/cycold.github.io/iOS/UI/commonError.md",
-		"/Users/icewater/cycold.github.io/iOS/UI/UIView.md",
-		"/Users/icewater/cycold.github.io/iOS/OC/NSString.md",
-		"/Users/icewater/cycold.github.io/iOS/OC/Foundation架构秘籍.txt",
-		"/Users/icewater/cycold.github.io/iOS/OC/无法连线.png",
-		"/Users/icewater/cycold.github.io/iOS/OC/memo.md",
-		"/Users/icewater/cycold.github.io/Xcode/操作.md",
-		"/Users/icewater/cycold.github.io/c/字符串.md",
-		"/Users/icewater/cycold.github.io/iOS/OC/string",
-		"/Users/icewater/cycold.github.io/c/头文件.md",
-		"/Users/icewater/cycold.github.io/c/位运算.md",
-		"/Users/icewater/cycold.github.io/c/内存数据存储.md",
-		"/Users/icewater/cycold.github.io/Xcode/plugins.md",
-		"/Users/icewater/Library/Application Support/Sublime Text 3/Packages/User/myTheme/i-ocean-light.tmTheme",
-		"/Users/icewater/.gitconfig",
-		"/Users/icewater/cycold.github.io/mac/MAC OS下ZIP压缩包解压时候中文乱码的解决办法.md",
-		"/Users/icewater/cycold.github.io/config/.bash_profile"
+		"/Users/icewater/cycold.github.io/atom/init.md"
 	],
 	"find":
 	{
@@ -962,24 +945,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "webpack/note.md",
+					"file": "ps/init.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 613,
+						"buffer_size": 173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								173,
+								173
 							]
 						],
 						"settings":
@@ -1040,172 +1023,6 @@
 							],
 							"origin_encoding": "UTF-8",
 							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "webDev/init.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 902,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								546,
-								546
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"_anf_new": "",
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "chrome/init.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"_anf_new": "",
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content"
-							],
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1327,7 +1144,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 276.0,
+	"side_bar_width": 190.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
