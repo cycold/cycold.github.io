@@ -1,0 +1,56 @@
+" ----------按键重映射-----------------
+" 将jj按键映射为esc (只在插入模式下有效,i表示insert)
+" 这里要特别注意:不要把任何的空格或者注释放在inoremap 命令后面, 要不进入normal后会光标随机乱跳
+" 注意i jj <Esc> 这种省略写法在某些vim环境中是不兼容的 需要写成: imap jj <Esc>, 注意webstorm 中需要写成 inoremap 形式
+
+inoremap jj <Esc>
+
+" 在插入模式下kk会在行尾部插入空格，这对跳出括号很有用
+inoremap kk <Esc>A<Space>
+
+" 移动到下一个 }
+inoremap ;; <Esc>/[{}]<CR>:noh<CR>a
+
+" 跳出所有括号
+inoremap ki <Esc>}o
+" ------------------------------------
+
+inoremap kp <Esc>yypA
+inoremap ko <Esc>o
+inoremap kj <Esc>{i
+inoremap kh <Esc>I
+inoremap [  <Esc>a[]<Esc>i
+inoremap ]  <Esc>a]
+inoremap "  <Esc>a""<Esc>i
+inoremap :  <Esc>a:<Space>
+
+"inoremap <TAB> <ESC>%%li
+"inoremap <CR> <Esc>o<Esc>
+
+nnoremap [ {
+nnoremap ] }
+nnoremap ; A
+
+" Find next { or }
+":noremap ]] /[{}]<CR>:noh<CR>a
+
+" Find prev { or }
+":noremap [[ ?[{}]<CR>:noh<CR>a
+
+" 将大写B映射为^键(只在正常模式下有效n表示normal)
+nnoremap B ^
+
+" 将大写$映射为^键(只在正常模式下有效)
+nnoremap E $
+
+" 取消$ 按键(只在正常模式下有效)
+nnoremap $ <nop>
+
+" 取消^ 按键(只在正常模式下有效)
+nnoremap ^ <nop>
+
+" 设置在正常模式下,ff取代 ctrl + f 向下翻页
+nnoremap ff <C-f>
+
+" 设置在正常模式下,mm取代 ctrl + b 向上翻页
+nnoremap mm <C-b>

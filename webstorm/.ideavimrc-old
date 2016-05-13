@@ -1,0 +1,16 @@
+inoremap jj <esc>
+" imap ii <Esc>
+nnoremap j gj
+nnoremap k gk
+"将大写B映射为^键(只在正常模式下有效n表示normal)
+nnoremap B ^
+"将大写$映射为$键(只在正常模式下有效)
+nnoremap E $
+"取消$ 按键(只在正常模式下有效)
+nnoremap $ <nop>
+"取消^ 按键(只在正常模式下有效)
+nnoremap ^ <nop>
+"设置在正常模式下,ff取代 ctrl + f 向下翻页
+nnoremap ff <C-f>
+"设置在正常模式下,mm取代 ctrl + m 向上翻页
+nnoremap mm <C-b>
