@@ -17,13 +17,16 @@
 >  使用`git config --list`如果有看到重复的变量名,说明它们来自不同的配置文件,git会以最后一个为准.
 
 以上设置的是git的环境变量,一般git的环境变量保存在以下三个地方:
->   使用`--system`选项,读写的是git安装目录下的`/etc/gitconfig`文件
->   `git config --system user.name "xxxx"`
->   使用`--global`选项,读写的是系统用户目录下的`~/.gitconfig`文件
->   `git config --global user.name "xxxx"`
->   没有使用任何选项,读写的就是当前仓库中的`.git/config`
->   `git config user.name "xxxx"`
->   配置文件的优先级:当前的仓库中的配置文件优先级最高.这些配置都可以通过编辑配置文件`.gitconfig`来修改的.
+>   使用`--system`选项,读写的是git安装目录下的`/etc/gitconfig`文件  
+>   
+>   `git config --system user.name "xxxx"`  
+>   使用`--global`选项,读写的是系统用户目录下的`~/.gitconfig`文件   
+>   
+>   `git config --global user.name "xxxx"`  
+>   没有使用任何选项,读写的就是当前仓库中的`.git/config`   
+>   
+>   `git config user.name "xxxx"`           
+>   配置文件的优先级:当前的仓库中的配置文件优先级最高.这些配置都可以通过编辑配置文件`.gitconfig`来修改的.      
 
 使用git创建repository,首先cd到项目目录下
 >   初始化git仓库,此时会在目录下创建.git文件夹(windows需要开启显示隐藏文件)
