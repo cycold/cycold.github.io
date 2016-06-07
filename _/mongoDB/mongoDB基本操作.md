@@ -15,8 +15,8 @@ https://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
     PATH=$PATH:$MONGODB_HOME/bin
   ```
 
-  最后使用命令`source ~/.zshrc`使配置文件生效.
-  使用命令`mongod -version`测试Mongodb环境变量是否添加成功.
+最后使用命令`source ~/.zshrc`使配置文件生效.
+使用命令`mongod -version`测试Mongodb环境变量是否添加成功.
 
   ```
     db version v3.0.6

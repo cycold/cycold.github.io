@@ -38,7 +38,23 @@ methods.forEach(function(method){
 ```
 
 
-每一次请求都会调用:`app.handle`函数, 
+每一次请求都会调用:`app.handle`函数 负责处理为进来的请求分配(dispatch router)路由
+```
+function createApplication() {
+  var app = function(req, res, next) {
+    app.handle(req, res, next);
+  };
+
+  mixin(app, EventEmitter.prototype, false);
+  mixin(app, proto, false);
+
+  app.request = { __proto__: req, app: app };
+  app.response = { __proto__: res, app: app };
+  app.init();
+  return app;
+}
+```
+
 每一次都会先判断是否有回调函数callback,是否有定义路由
 ```
 app.handle(req, res, callback){

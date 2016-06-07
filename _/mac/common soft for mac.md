@@ -11,3 +11,4 @@
 11.flux （屏幕亮度调节）
 12.word，excell，powerpoint
 13.Dash(API文档 https://kapeli.com/dash)
+14.BetterTouchTool, BetterSnapTool (https://www.boastr.net/)
