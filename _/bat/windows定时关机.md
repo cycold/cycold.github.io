@@ -51,10 +51,10 @@ at 17:50 shutdown -f -s -t 15
 `schtasks /Create ` 或者查看/Create的帮助文档:  `schtasks /Create /?`
 
 创建一个定时关机的任务,每天19:00 关机 
-`schtasks /Create /SC DAILY /ST 19:00 /TN shutdown-at-19-00 /TR "shutdown /s /f /t 90 /c 'windows 将在90秒后自动关机...,\` shutdown /a \` 取消关机'"`
+`schtasks /Create /SD 2016/06/24 /ED 2017/06/24 /SC DAILY /ST 19:00 /TN shutdown-at-19-00 /TR "shutdown /s /f /t 90 /c 'windows 将在90秒后自动关机...,\` shutdown /a \` 取消关机'"`
 
 设置结束时间, 如果电脑有在休眠
-`schtasks /Create /SC DAILY /ST 19:00 /ET 23:00 /TN shutdown-at-19-23 /TR "shutdown /s /f /t 90 /c 'windows 将在90秒后自动关机..., 使用shutdown /a 取消关机'"`
+`schtasks /Create /SD 2016/06/24 /ED 2017/06/24 /SC DAILY /ST 19:00 /ET 23:00 /TN shutdown-at-19-23 /TR "shutdown /s /f /t 90 /c 'windows 将在90秒后自动关机..., 使用shutdown /a 取消关机'"`
 
 > 注意: /ST开始运行时间(24小时制), 注意如果是早上8点, 必须写成 `08:00`, 而不是 `8:00` 前面需要一个前导0
 > shutdown 后面带的参数需要使用引号
@@ -65,8 +65,12 @@ at 17:50 shutdown -f -s -t 15
 
 
 windows 定时关机(在19:00-23:00)此时段关机
-`schtasks /Create /SC Daily /ST 19:00 /ET 23:00 /TN shutdown-at-19-23 /TR "shutdown /s /f /t 90 /c 'windows will be shutdown after 90s, using shutdown /a abort this plan'"`
+`schtasks /Create /SC Daily /SD 2016/06/24 /ED 2017/06/24 /ST 19:00 /ET 23:00 /TN shutdown-at-19-23 /TR "shutdown /s /f /t 90 /c 'windows will be shutdown after 90s, using shutdown /a abort this plan'"`
+`schtasks /Create /SC Daily /SD 2016/06/24 /ED 2017/06/24 /ST 19:00 /ET 23:00 /TN shutdown-at-19-23 /TR "shutdown /s /f /t 90 /c 'windows will be shutdown after 90s, using shutdown /a abort this plan'"`
 
+> 注意: 一定要设置过期日期(date)`/ED`,要不此任务当天就回过期
+
+window10 打开任务管理器: 搜索: `tasks`
 
 
 

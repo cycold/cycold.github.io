@@ -3,7 +3,7 @@ function Vue (options) {
 }
 
 // install internals
-// 注意: 下面的函数都只是定义Vue原型上的方法,没有真正执行语句
+// 注意: 下面的函数都只是定义Vue原型上的方法,没有真正执行语句 (里面的执行语句需要在new Vue时才会执行)
 initMixin(Vue)
 stateMixin(Vue)
 eventsMixin(Vue)
@@ -18,7 +18,7 @@ lifecycleAPI(Vue)
 
 export default Vue
 
-`installGlobalAPI(Vue)` 
+`installGlobalAPI(Vue)`  在 new Vue()前面执行
 设置: 一些默认 的全局配置
 ``` 
 Vue.options = {
