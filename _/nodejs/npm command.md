@@ -31,3 +31,5 @@
 `npm root -g`   
 清除不需要,无关的npm包:     
 `npm prune 包名`        
+
+`npm cache clean`

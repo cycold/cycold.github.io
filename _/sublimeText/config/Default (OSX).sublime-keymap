@@ -1,0 +1,312 @@
+[
+    // 按键命令详细： http://docs.sublimetext.info/en/latest/reference/commands.html
+    /*这里的super等于command按键 */
+    { "keys": ["ctrl+tab"], "command": "next_view_in_stack" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view_in_stack" },
+    { "keys": ["super+forward_slash"], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["super+shift+forward_slash"], "command": "toggle_comment", "args": { "block": true } },
+
+    // 触发侧边栏
+    { "keys": ["alt+s"], "command": "toggle_side_bar" },
+    // 打开侧边栏并且定位文件所在目录
+    { "keys": ["alt+f"], "command": "reveal_in_side_bar"},
+    // 打开finder并定位到当前文件在finder中的目录(打开当前文件所在的目录)
+    { "keys": ["alt+o"], "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"} },
+    // 切换选项Tab
+    { "keys": ["alt+tab"], "command": "next_view_in_stack" },
+    { "keys": ["alt+super+tab"], "command": "prev_view_in_stack" },
+    // 触发自动补全
+    { "keys": ["shift+space"], "command": "auto_complete" },
+    /**********************查找**************************/
+    // 查找并选择下一个
+    { "keys": ["super+d"], "command": "find_under_expand" },
+    // 查找全部
+    { "keys": ["super+g"], "command": "find_all_under" },
+    /**********************缩进**************************/
+    // sublime 也支持shift + tab 来unindent
+    { "keys": ["super+]"], "command": "indent" },
+    { "keys": ["super+["], "command": "unindent" },
+    /**********************复制**************************/
+    // 复制行:
+    { "keys": ["super+shift+d"], "command": "duplicate_line" },
+    // 上下移动行
+    { "keys": ["alt+k"], "command": "swap_line_up" },
+    { "keys": ["alt+j"], "command": "swap_line_down" },
+    // 删除行
+    //{ "keys": ["super+j"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    // 插入新行
+    { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+    // 插入新行到光标所在行之上
+    { "keys": ["super+shift+enter"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"} },
+    // 粘贴并缩进
+    { "keys": ["super+shift+v"], "command": "paste_and_indent" },
+    // 从历史记录中粘贴
+    { "keys": ["super+k", "super+v"], "command": "paste_from_history" },
+    { "keys": ["super+option+v"], "command": "paste_from_history" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+
+    { "keys": ["alt+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+    { "keys": ["alt+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+    { "keys": ["alt+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+    { "keys": ["alt+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+    { "keys": ["super+j"], "command": "join_lines" },
+
+    // 隐藏打开的panel,窗口,补全的下拉菜单(不使用sublime默认的escape键,不好用;)
+    { "keys": ["alt+h"], "command": "hide_panel", "args": {"cancel": true},
+        "context":
+        [
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["alt+h"], "command": "hide_overlay", "context":
+        [
+            { "key": "overlay_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["alt+h"], "command": "hide_popup", "context":
+        [
+            { "key": "popup_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["alt+h"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["alt+h"], "command": "single_selection", "context":
+        [
+            { "key": "num_selections", "operator": "not_equal", "operand": 1 }
+        ]
+    },
+
+    // 注意在这里一旦定义了tab按键,将会导致emmet插件的tab按键失效,所以不能在这里定义与其他插件冲突的按键,如果其他插件也是使用这个按键配置文件的话
+    // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": true} },
+    // { "keys": ["tab"], "command": "insert_best_completion", "args": {"default": "\t", "exact": false},
+    //     "context":
+    //     [
+    //         { "key": "setting.tab_completion", "operator": "equal", "operand": true },
+    //         { "key": "preceding_text", "operator": "regex_match", "operand": ".*[^0-9]$", "match_all": true },
+    //     ]
+    // },
+
+    // { "keys": ["j", "j"],
+    //     "command": "save",
+    //     "context":
+    //     [
+    //         { "key": "setting.command_mode", "operand": false },
+    //         { "key": "setting.is_widget", "operand": false }
+    //     ]
+    // },
+
+    /* 以下快捷键需要安装相应的插件 */
+    // 需要安装vintage(或者enable vintage) map ii to Esc in insert mode 连按jj进入命令模式
+    // https://github.com/sublimehq/Vintage
+    // Vintage sublimeText自己已经安装了
+    { "keys": ["j", "j"],
+        "command": "exit_insert_mode",
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+
+    { "keys": ["escape"],
+        "command": "im_switch_for_vintage",  // 此脚本可以运行多个命令 注意命名：对应运行package／user／runMultipleCommands.py
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+
+    // {"keys": ["escape"],
+    //     "command": "im_switch_for_vintage",
+    //     "context": [{
+    //         "key": "setting.command_mode",
+    //         "operand": false
+    //     }, {
+    //         "key": "setting.is_widget",
+    //         "operand": false
+    //     }],
+    //     "args": {
+    //         "commands": [
+    //             {"command": "save"}
+    //         ]
+    //     }
+    // },
+
+    // 下面是使用插件Vintageous 映射，注意和其自带的Vintage命令不同
+    // {
+    //     "keys": ["j", "j"],
+    //     "command": "_enter_normal_mode",
+    //     "args": {
+    //         "mode": "mode_insert"
+    //     },
+    //     "context": [
+    //         {"key": "vi_insert_mode_aware"}
+    //     ]
+    // },
+
+    // { "keys": ["j","j"], "command": "hide_auto_complete", "context":
+    //     [
+    //         { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    //     ]
+    // },
+
+    // { "keys": ["j","j"], "command": "vi_cancel_current_action", "context":
+    //     [
+    //         { "key": "setting.command_mode" },
+    //         { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false },
+    //         { "key": "vi_has_input_state" }
+    //     ]
+    // },
+
+    // { "keys": ["k","o"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"}, "context":
+    //     [
+    //         { "key": "setting.command_mode", "operand": false },
+    //         { "key": "setting.is_widget", "operand": false }
+    //     ]
+    // },
+    // { "keys": ["k","o"], "command": "hide_auto_complete", "context":
+    //     [
+    //         { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+    //     ]
+    // },
+    // 移动到行尾 (可以跳出括号，引号)
+    { "keys": ["k","k"], "command": "move_to", "args": {"to": "eol", "extend": false, "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","k"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    // 移动到行首 (可以跳出括号，引号)
+    { "keys": ["k","h"], "command": "move_to", "args": {"to": "bol", "extend": false, "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","h"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    // 括号之间移动
+    { "keys": ["k","j"], "command": "move_to", "args": {"to": "brackets", "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","j"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    //向前移动一个单词 (可以跳出括号，引号)
+    { "keys": ["k","l"], "command": "move", "args": {"by": "words", "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","l"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    //向下移动一行 (可以跳出括号，引号)
+    /*{ "keys": ["k","i"], "command": "move", "args": {"by": "lines", "forward": true},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": ["k","i"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },*/
+    //输入：自动插入一个空格
+    { "keys": [":"], "command": "insert", "args": {"characters": ": "},
+        "context":
+        [
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operand": false }
+        ]
+    },
+    { "keys": [":"], "command": "hide_auto_complete", "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+
+    // 修改vim的翻页按键ctrl + f 为 shift + f
+    // { "keys": ["f","f"], "command": "set_motion", "args": {
+    //     "motion": "move",
+    //     "motion_args": {"by": "pages", "forward": true, "extend": true }},
+    //     "context": [{"key": "setting.command_mode"}, {"key": "setting.vintage_ctrl_keys"}]
+    // },
+    // { "keys": ["shift+b"], "command": "set_motion", "args": {
+    //     "motion": "move",
+    //     "motion_args": {"by": "pages", "forward": false, "extend": true }},
+    //     "context": [{"key": "setting.command_mode"}, {"key": "setting.vintage_ctrl_keys"}]
+    // },
+    // 修改光标移动到行尾使用大写E按键
+    { "keys": ["E"], "command": "set_motion", "args": {
+        "motion": "vi_move_to_hard_eol",
+        "motion_args": {"repeat": 1, "extend": true},
+        "inclusive": true,
+        "clip_to_line": true },
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // 修改光标移动到行首使用大写B按键
+    { "keys": ["B"], "command": "set_motion", "args": {
+        "motion": "vi_move_to_first_non_white_space_character",
+        "motion_args": {"extend": true },
+        "clip_to_line": true },
+        "context": [{"key": "setting.command_mode"}]
+    },
+    // 需要安装terminal插件
+    { "keys": ["alt+t"], "command": "open_terminal" },
+    { "keys": ["super+alt+t"], "command": "open_terminal_project_folder" },
+    // 需要安装auto-file-name 插件 默认设置不自动补全文件路径,很烦使用alt + /按键补全文件路径
+    { "keys": ["alt+forward_slash"], "command": "afn_show_filenames",
+       "context":
+     [
+         { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
+     ]
+    },
+    // 需要安装一个IMSwitchForVintage.py插件,用于在进入vim的normal模式时自动切换输入法
+    // https://github.com/zhongxingdou/IMSwitchForVintage-sublime
+    // {"keys": ["escape"],
+    // {"keys": ["escape"],
+    //     "command": "im_switch_for_vintage",
+    //     "context": [{
+    //         "key": "setting.command_mode",
+    //         "operand": false
+    //     }, {
+    //         "key": "setting.is_widget",
+    //         "operand": false
+    //     }]
+    // },
+    // 插入代码头（创建时间，作者）http://www.cnblogs.com/restran/archive/2013/01/07/2850254.html
+    // 插件名称：insert_signature
+    {
+        "keys": ["super+shift+,"], "command": "insert_signature",
+        "args": {}
+    }
+]

@@ -1,0 +1,250 @@
+{
+	// Save via writing to an alternate file, and then renaming it over the
+	// original file.
+	"atomic_save": false,
+
+	// Enable auto complete to be triggered automatically when typing.
+	"auto_complete": true,
+
+	// Always visualise the viewport on the minimap, as opposed to only
+    // showing it on mouse over
+	"always_show_minimap_viewport": true,
+
+	// The delay, in ms, before the auto complete window is shown after typing
+	"auto_complete_delay": 50,
+
+
+	// Calculates indentation automatically when pressing enter
+	"auto_indent": true,
+
+	// Controls auto pairing of quotes, brackets etc
+	"auto_match_enabled": true,
+
+	// Show folders in the side bar in bold
+	"bold_folder_labels": true,
+
+	// These settings control the size of the caret
+	"caret_extra_top": 0,
+	"caret_extra_bottom": 0,
+	"caret_extra_width": 0,
+
+	// 设置光标宽一点 caret_extra_width 也可以设置 在sublimeText 3 中以去除
+	"wide_caret": true,
+
+	// Valid values are "smooth", "phase", "blink" and "solid".
+	"caret_style": "blink",
+
+	// Set to true to close windows as soon as the last file is closed, unless
+	// there's a folder open within the window.
+	// On OS X, this value is overridden in the platform specific settings, so
+	// you'll need to place this line in your user settings to override it.
+	"close_windows_when_empty": false,
+
+	// If true, the copy and cut commands will operate on the current line
+	// when the selection is empty, rather than doing nothing.
+	"copy_with_empty_selection": false,
+
+	// OS X only: This controls if an empty window is created at startup or not.
+	"create_window_at_startup": false,
+
+	// Encoding used when saving new files, and files opened with an undefined
+	// encoding (e.g., plain ascii files). If a file is opened with a specific
+	// encoding (either detected or given explicitly), this setting will be
+	// ignored, and the file will be saved with the encoding it was opened
+	// with.
+	"default_encoding": "UTF-8",
+
+	// Set to false to disable detection of tabs vs. spaces on load
+	"detect_indentation": true,
+
+	"detect_slow_plugins": true,
+
+	// When drag_text is enabled, clicking on selected text will begin a
+	// drag-drop operation. This is not currently implemented under Linux.
+	"drag_text": false,
+
+	// Set to false to turn off the indentation guides.
+	// The color and width of the indent guides may be customized by editing
+	// the corresponding .tmTheme file, and specifying the colors "guide",
+	// "activeGuide" and "stackGuide"
+	"draw_indent_guides": true,
+
+	// Set to "none" to turn off drawing white space, "selection" to draw only the
+	// white space within the selection, and "all" to draw all white space
+	"draw_white_space": "none",
+
+	// Allows tabs to scroll left and right, instead of simply shrinking
+	"enable_tab_scrolling": true,
+
+	// Hides the fold buttons unless the mouse is over the gutter
+	"fade_fold_buttons": false,
+
+	// folder_exclude_patterns and file_exclude_patterns control which files
+	// are listed in folders on the side bar. These can also be set on a per-
+	// project basis.
+	"file_exclude_patterns":
+	[
+	  "*.zip",
+	  "*.rar",
+	  "*.DS_Store",
+	  "*.sublime-project",
+	  "*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+	  ".svn",
+	  ".git",
+	  ".hg",
+	  "CVS",
+	  ".sass-cache",
+	  ".idea"
+	],
+
+	// Fold buttons are the triangles shown in the gutter to fold regions of text
+	"fold_buttons": true,
+
+	// Note that the font_face and font_size are overridden in the platform
+	// specific settings file, for example, "Preferences (Linux).sublime-settings".
+	// Because of this, setting them here will have no effect: you must set them
+	// in your User File Preferences.
+	"font_face": "Fira Code",
+	"font_size": 12,
+
+	// Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+	// "subpixel_antialias", "no_round" (OS X only), "gdi" (Windows only) and
+	// "directwrite" (Windows only)
+	"font_options":
+	[
+	  "subpixel_antialias"
+	],
+
+	// Set to false to hide the gutter altogether
+	"gutter": true,
+
+	// If enabled, will highlight any line with a caret
+	"highlight_line": false,
+
+	// Makes tabs with modified files more visible
+	"highlight_modified_tabs": true,
+
+	// Exiting the application with hot_exit enabled will cause it to close
+	// immediately without prompting. Unsaved modifications and open files will
+	// be preserved and restored when next starting.
+	//
+	// Closing a window with an associated project will also close the window
+	// without prompting, preserving unsaved changes in the workspace file
+	// alongside the project.
+	"hot_exit": false,
+
+	// List any packages to ignore here. When removing entries from this list,
+	// a restart may be required if the package contains plugins.
+	"ignored_packages":
+	[
+		"AngularJS",
+		"Glue",
+		"JavaScript Completions",
+		"JavaScript Snippets",
+		"JsFormat",
+		"Markdown",
+		"Nodejs",
+		"SideBarEnhancements",
+		"Vintageous"
+	],
+
+	// Controls how the indent guides are drawn, valid options are
+	// "draw_normal" and "draw_active". draw_active will draw the indent
+	// guides containing the caret in a different color.
+	"indent_guide_options": ["draw_normal"],
+
+	// Adds whitespace up to the first open bracket when indenting. Requires
+	// auto_indent to be enabled.
+	"indent_to_bracket": true,
+
+	// Additional spacing at the bottom of each line, in pixels
+	"line_padding_bottom": 1,
+
+	// Additional spacing at the top of each line, in pixels
+	"line_padding_top": 1,
+
+	// Spacing between the gutter and the text
+	"margin": 0,
+
+	// Set to false to disable underlining the brackets surrounding the caret
+	"match_brackets": true,
+
+	// This controls what happens when pressing up or down when on the first
+	// or last line.
+	// On OS X, this value is overridden in the platform specific settings, so
+	// you'll need to place this line in your user settings to override it.
+	"move_to_limit_on_up_down": true,
+
+	// OS X only: When files are opened from finder, or by dragging onto the
+	// dock icon, this controls if a new window is created or not.
+	"open_files_in_new_window": false,
+
+	// Valid values are "system", "enabled" and "disabled"
+	"overlay_scroll_bars": "enabled",
+
+	// Set to false to disable scrolling past the end of the buffer.
+	// On OS X, this value is overridden in the platform specific settings, so
+	// you'll need to place this line in your user settings to override it.
+	"scroll_past_end": true,
+
+	// By default, shift+tab will only unindent if the selection spans
+	// multiple lines. When pressing shift+tab at other times, it'll insert a
+	// tab character - this allows tabs to be inserted when tab_completion is
+	// enabled. Set this to true to make shift+tab always unindent, instead of
+	// inserting tabs.
+	"shift_tab_unindent": true,
+
+	// Display file encoding in the status bar
+	"show_encoding": true,
+
+	// Display line endings in the status bar
+	"show_line_endings": false,
+
+	// Makes auto indent a little smarter, e.g., by indenting the next line
+	// after an if statement in C. Requires auto_indent to be enabled.
+	"smart_indent": true,
+
+	// When enabled, pressing tab will insert the best matching completion.
+	// When disabled, tab will only trigger snippets or insert a tab.
+	// Shift+tab can be used to insert an explicit tab when tab_completion is
+	// enabled.
+	"tab_completion": false,
+
+	// The number of spaces a tab is considered equal to
+	"tab_size": 4,
+
+	// The theme controls the look of Sublime Text's UI (buttons, tabs, scroll bars, etc)
+	"theme": "Default.sublime-theme",
+
+	// Set to true to insert spaces when tab is pressed
+	"translate_tabs_to_spaces": true,
+
+	// If translate_tabs_to_spaces is true, use_tab_stops will make tab and
+	// backspace insert/delete up to the next tabstop
+	"use_tab_stops": true,
+
+	// Characters that are considered to separate words
+	"word_separators": "./\\()\"':,;<>~!@%^&*|+=[]{}`~?",
+
+	// Disables horizontal scrolling if enabled.
+	// May be set to true, false, or "auto", where it will be disabled for
+	// source code, and otherwise enabled.
+	"word_wrap": "auto",
+
+
+	//
+	// other plugin config
+	//
+
+	// soda 主题配置
+	"soda_classic_tabs": true,
+	"soda_folder_icons": false,
+
+	// vintage config
+	"vintage_ctrl_keys": true,
+	"vintage_start_in_command_mode": true
+
+}
