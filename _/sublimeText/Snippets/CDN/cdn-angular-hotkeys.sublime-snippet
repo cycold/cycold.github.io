@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/angular-hotkeys/1.6.0/hotkeys.min.css
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-angular-hotkeys-css</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

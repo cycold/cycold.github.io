@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+//cdn.bootcss.com/iCheck/1.0.1/icheck.min.js
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-icheck</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

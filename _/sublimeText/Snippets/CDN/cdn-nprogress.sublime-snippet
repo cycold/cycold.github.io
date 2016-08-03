@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css
+//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-nprogress</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

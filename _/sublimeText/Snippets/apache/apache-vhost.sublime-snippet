@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+<VirtualHost 192.168.0.111:80>
+    ServerAdmin admin@t.cc
+    DocumentRoot "/Users/icewater/x-dev/"
+    ServerName t.cc
+    ServerAlias www.t.cc *.t.cc
+    ErrorLog "/private/var/log/apache2/t.com-error_log"
+    CustomLog "/private/var/log/apache2/t.com-access_log" common
+
+    <Directory "/Users/icewater/x-dev">
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+        Order allow,deny
+        Allow from all
+        Require all granted
+    </Directory>
+</VirtualHost>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>apache-vhost</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

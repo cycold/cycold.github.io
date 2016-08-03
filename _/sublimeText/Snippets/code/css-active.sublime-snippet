@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+//CSS伪类 :active 生效，只需要给 document 绑定 touchstart 或 touchend 事件
+document.addEventListener('touchstart',function(){},false);
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>css:active</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+//cdn.bootcss.com/bluebird/3.1.1/bluebird.min.js
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-bluebird</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

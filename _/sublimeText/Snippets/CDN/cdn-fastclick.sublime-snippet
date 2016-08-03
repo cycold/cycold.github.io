@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-fastclick</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+//cdn.bootcss.com/pickadate.js/3.5.6/compressed/themes/classic.css
+//cdn.bootcss.com/pickadate.js/3.5.6/compressed/picker.js
+//cdn.bootcss.com/pickadate.js/3.5.6/compressed/picker.date.js
+//cdn.bootcss.com/pickadate.js/3.5.6/compressed/picker.time.js
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-pickadate</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

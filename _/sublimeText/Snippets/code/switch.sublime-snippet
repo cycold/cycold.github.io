@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+switch(${1:n}) {
+  case 1:
+    //执行代码块 1
+    break
+  case 2:
+    //执行代码块 2
+    break
+  default:
+    //n 与 case 1 和 case 2 不同时执行的代码
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>switch-case</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

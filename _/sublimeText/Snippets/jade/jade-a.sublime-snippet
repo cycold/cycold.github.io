@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+a(href="#", target="_blank")
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jade-a</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jade</scope> -->
+</snippet>

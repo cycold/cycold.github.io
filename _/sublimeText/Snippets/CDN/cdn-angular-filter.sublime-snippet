@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/angular-filter/0.5.6/angular-filter.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-angular-filter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

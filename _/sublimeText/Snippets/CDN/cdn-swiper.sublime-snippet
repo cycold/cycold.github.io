@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<!-- swiper http://www.idangero.us/swiper -->
+<link href="http://cdn.bootcss.com/Swiper/3.0.4/css/swiper.min.css" rel="stylesheet">
+<script src="http://cdn.bootcss.com/Swiper/3.0.4/js/swiper.min.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>swiper</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

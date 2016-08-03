@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+# Enforce Unix newlines
+*.css   text eol=lf
+*.html  text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.rb    text eol=lf
+*.scss  text eol=lf
+*.sass  text eol=lf
+*.svg   text eol=lf
+*.yml   text eol=lf
+*.php   text eol=lf
+# Don't diff or textually merge source maps
+*.map   binary
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>.gitattributes</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

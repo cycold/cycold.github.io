@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+meta(charset="utf8")
+meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+meta(http-equiv="x-ua-compatible" content="ie=edge")
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>jade-meta</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.jade</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<script src="//cdn.bootcss.com/angular-schema-form/0.8.9/bootstrap-decorator.min.js"></script>
+<script src="//cdn.bootcss.com/angular-schema-form/0.8.9/schema-form.min.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-angular-schema-form</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

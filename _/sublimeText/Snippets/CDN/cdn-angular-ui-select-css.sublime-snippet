@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/angular-ui-select/0.12.1/select.min.css
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-angular-ui-select-css</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

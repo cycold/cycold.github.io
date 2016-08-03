@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+{
+  "folders":
+  [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "sublime-view-in-browser": {
+      "baseUrl": "http://0.0.0.0:8082",
+      "basePath": "/Users/icewater/Documents"
+    }
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>project-config</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

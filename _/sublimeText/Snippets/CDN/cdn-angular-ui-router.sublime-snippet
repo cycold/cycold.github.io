@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+//cdn.bootcss.com/angular-ui-router/0.2.15/angular-ui-router.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-angular-ui-router</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<!--  https://github.com/scottjehl/Respond -->
+<script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>respond</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+//cdn.bootcss.com/babel-core/5.8.34/browser.min.js
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-babel-browser-5</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+# editorconfig.org
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{js,rb,css,scss,html,jade,vue,jsx,json,swift,java}]
+indent_size = 2
+
+[*.go]
+indent_size = 8
+indent_style = tab
+
+[*.py]
+indent_size = 4
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>my-editorconfig</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

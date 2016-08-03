@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<!-- introjs  http://usablica.github.com/intro.js/ -->
+<link href="http://cdn.bootcss.com/intro.js/1.0.0/introjs.min.css" rel="stylesheet">
+<script src="http://cdn.bootcss.com/intro.js/1.0.0/intro.min.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>intro</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

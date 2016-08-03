@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+http://cdn.bootcss.com/modernizr/2.8.3/modernizr.min.js
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cdn-modernizr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

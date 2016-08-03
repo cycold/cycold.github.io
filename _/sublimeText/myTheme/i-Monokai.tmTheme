@@ -463,7 +463,7 @@
         </dict>
         <!-- used for brackethighlighter plugin start-->
         <!-- used for Block Cursor Everywhere plugin start-->
-        <dict>
+        <!-- <dict>
             <key>name</key>
             <string>Block Cursor</string>
             <key>scope</key>
@@ -475,7 +475,7 @@
                 <key>background</key>
                 <string>#69CCF3</string>
             </dict>
-        </dict>
+        </dict> -->
         <!-- used for Block Cursor Everywhere plugin end-->
     </array>
     <key>uuid</key>

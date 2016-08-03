@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<!-- https://github.com/bevacqua/dragula -->
+<link rel="stylesheet" href="//cdn.bootcss.com/dragula/3.5.2/dragula.min.js"/>
+<script src="//cdn.bootcss.com/dragula/3.5.2/dragula.min.js"></script>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-dragula</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

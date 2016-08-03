@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<!-- ionic -->
+<link href="http://cdn.bootcss.com/ionic/1.0.0-rc.1/css/ionic.min.css" rel="stylesheet">
+<script src="http://cdn.bootcss.com/ionic/1.0.0-rc.1/js/ionic.bundle.min.js"></script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ionic</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+//cdn.bootcss.com/clipboard.js/1.5.3/clipboard.min.js
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cdn-clipboard</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
