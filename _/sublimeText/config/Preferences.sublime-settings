@@ -234,6 +234,14 @@
 	// source code, and otherwise enabled.
 	"word_wrap": "auto",
 
+    "binary_file_patterns": [".idea/**", "bower_components/**", "node_modules/**"],
+
+    // File indexing parses all files in the side bar, and builds an index of
+    // their symbols. This is required for Goto Definition to work.
+    // 禁止索引, 降低cpu, 要不太过热了 http://stackoverflow.com/questions/33329820/indexing-in-sublime-text-3
+    "index_files": false,
+    "index_exclude_patterns": [".idea/**", "bower_components/**", "node_modules/**"],
+
 
 	//
 	// other plugin config
