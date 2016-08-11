@@ -2,7 +2,7 @@
 " ----------按键重映射-----------------
 " 将jj按键映射为esc (只在插入模式下有效,i表示insert)
 " 这里要特别注意:不要把任何的空格或者注释放在inoremap 命令后面, 要不进入normal后会光标随机乱跳
-" 注意i jj <Esc> 这种省略写法在某些vim环境中是不兼容的 需要写成: imap jj <Esc>
+" 注意i jj <Esc> 这种省略写法在某些vim环境中是不兼容的 需要写成: imap jj <Esc>  当使用imap "  <Esc>a""<Esc>i 时,某些vim not working, 此时最好使用 inoremap "  <Esc>a""<Esc>i
 
 imap jj <Esc>
 
@@ -22,8 +22,8 @@ imap kj <Esc>{i
 imap kh <Esc>I
 imap [  <Esc>a[]<Esc>i
 imap ]  <Esc>a]
-imap "  <Esc>a""<Esc>i
-imap :  <Esc>a:<Space>
+inoremap "  <Esc>a""<Esc>i
+inoremap :  <Esc>a:<Space>
 
 "imap <TAB> <ESC>%%li
 "imap <CR> <Esc>o<Esc>

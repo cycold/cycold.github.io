@@ -135,6 +135,10 @@ du -sh 目录名
 ```
 [root@linux ~]# cd /usr/local/src
 [root@linux src]# tar -zxvf /tmp/etc.tar.gz
+
+将压缩文件解压到特定目录: 
+`tar -C /usr/local -xzf go1.5.1.darwin-amd64.tar.gz`
+
 ```
 
 **find && grep**
