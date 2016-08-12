@@ -306,10 +306,22 @@ console.log("includes: ", includes)
 console.log("Promise: ", Promise)
 let p = Promise.resolve("hhhh")
 p.then(result => console.log('promise.resolve: ', result))
-
-
-
 ```
+
+综述: 
+### The runtime transformer plugin does `three` things:
+
+> Automatically requires babel-runtime/regenerator when you use generators/async functions.
+
+> Automatically requires babel-runtime/core-js and maps ES6 `static` methods (Object.assign) (`注意不是实例方法`) and built-ins (Promise).
+
+> Removes the inline babel helpers and uses the module babel-runtime/helpers instead.
+
+What does this actually mean though? Basically, you can use built-ins such as 
+Promise, Set, Symbol etc as well use all the Babel features that require a polyfill seamlessly, 
+without global pollution, making it extremely suitable for libraries.
+
+Make sure you include babel-runtime as a dependency.
 
 
 
