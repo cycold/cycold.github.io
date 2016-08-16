@@ -1,3 +1,4 @@
+0.brew
 1.karabiner （按键映射）
 2.iStat Menus (状态栏网络监控)
 3.NeteaseMusic (音乐)
@@ -12,3 +13,4 @@
 12.word，excell，powerpoint
 13.Dash(API文档 https://kapeli.com/dash)
 14.BetterTouchTool, BetterSnapTool (https://www.boastr.net/)
+15.7zip压缩文件:keka http://www.kekaosx.com/en/ 或者使用 `brew install p7zip`
